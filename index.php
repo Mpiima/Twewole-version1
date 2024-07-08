@@ -135,7 +135,7 @@
                         <div class="popup_content">
                             <div class="popup-text">
                                 <div class="heading_s3 text-center">
-                                    <h4>Subscribe and Get Latest offersdcfs!</h4>
+                                    <h4>Subscribe and Get Latest !</h4>
                                 </div>
                                 <p>Subscribe to the newsletter to receive updates about new products and services.</p>
                             </div>
