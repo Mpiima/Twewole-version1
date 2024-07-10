@@ -922,7 +922,7 @@ data-textcolor="#ff8800" data-digitscolor="#ff5500">Kampala, Uganda</a>
 
                               <div class="col-lg-4">
                               <div class="card">
-                                <img class="card-img" src="Insurance experts final.png" alt="Bologna">
+                                <img class="card-img" src="Trade credit experts final.png" alt="Bologna">
                                 <div class="card-img-overlay">
                                   <a data-bs-toggle="modal" data-bs-target="#trade"class="btn btn-light btn-sm">Trade Credit Experts</a>
                                 </div>                                                         
