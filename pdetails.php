@@ -168,11 +168,7 @@
       <div class="modal-body">
       <div class="row">
         <div class="col-lg-8" style="display:non;">
-            <ul class="list-group">
-            <!-- <li class="list-group-item d-flex justify-content-between align-items-center">
-            Trading/Business Name :  <a style="color:white;" target="_blank" href="http://maps.google.com/maps?q=<?php echo $row_company->item; ?>">
-            <span class="badge bg-primary rounded-pill"><?php echo $row_company->item; ?></span></a>
-            </li> -->
+            <!-- <ul class="list-group">
             <li class="list-group-item d-flex justify-content-between align-items-center">
             Contact :<a style="color:white;"  href="tel:<?php echo $row_company->item2; ?>">
             <span class="badge bg-primary rounded-pill"><?php echo $row_company->item2; ?></span></a>
@@ -191,17 +187,10 @@
                 <a style="color:white;" target="_blank" href="http://maps.google.com/maps?q=<?php echo $row_company->item; ?>">
                <?php $row_street->street; ?>View Location</a></span>
             </li>
-            <!-- <li class="list-group-item d-flex justify-content-between align-items-center">
-            Website<a href="<?php echo $row_company->item6; ?>">
-            <span class="badge bg-primary rounded-pill"> visit <?php echo $row_company->item6; ?></span></a>
-            </li> -->
-            </ul>
+
+            </ul> -->
         </div>
-        <div class="col-lg-4" style="display:non;">
-        <a class="" href="#">
-      <img src="main/pages/<?php echo $row_company->item4; ?>" alt="">
-        </a>  
-        </div>
+     
 
 
 
