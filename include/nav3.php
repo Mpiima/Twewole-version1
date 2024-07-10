@@ -48,7 +48,7 @@ if(!isset($_SESSION['username']) ){
                     <div class="d-flex align-items-center justify-content-center justify-content-md-start">
                         <div class="lng_dropdown me-2">
                      
-                            <img src="lg.png" style="width:60px; height:60px;position:relative: top:0px:left:10px;">
+                            <img src="logo.png" style="width:60px; height:60px;position:relative: top:0px:left:10px;">
                         </div>
                         <ul class="contact_detail text-center text-lg-start">
                             <li><span><a style="font-size:20px;font-weight:500" href="">USER DASHBOARD</a></span></li>

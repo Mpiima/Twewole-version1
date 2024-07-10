@@ -60,8 +60,8 @@ include('main/pages/connect.php'); ?>
     	<div class="container">
             <nav class="navbar navbar-expand-lg"> 
                 <a class="navbar-brand" href="index " style="width:35%;">
-                    <img class="logo_light" style="width:35%" src="main/pages/lg.png" alt="Twewole Ltd" />
-                    <img class="logo_dark" style="width:35%" src="main/pages/lg.png" alt="Twewole Ltd" />
+                    <img class="logo_light" style="width:35%" src="main/pages/logo.png" alt="Twewole Ltd" />
+                    <img class="logo_dark" style="width:35%" src="main/pages/logo.png" alt="Twewole Ltd" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false"> 
                     <span class="ion-android-menu"></span>
