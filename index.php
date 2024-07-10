@@ -137,16 +137,39 @@
                                 <div class="heading_s3 text-center">
                                     <h4>Subscribe and Get Latest !</h4>
                                 </div>
-                                <p>Subscribe to the newsletter to receive updates about new products and services.</p>
+                                
                             </div>
-                            <form method="post" class="rounded_input">
-                            	<div class="form-group mb-3">
-                                	<input name="email" required type="email" class="form-control" placeholder="Enter Your Email">
-                                </div>
-                                <div class="form-group mb-3">
-                                	<button class="btn btn-fill-line btn-block text-uppercase btn-radius" title="Subscribe" type="submit">Subscribe</button>
-                                </div>
-                            </form>
+                            <div id="mc_embed_shell" >
+   <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+   <style type="text/css">
+      #mc_embed_signup{background:re; false;clear:left; font:14px Helvetica,Arial,sans-serif; width:430px!important;}
+     
+   </style>
+   <div id="mc_embed_signup">
+      <form  action="https://twewole.us22.list-manage.com/subscribe/post?u=fc886a4404c34b3434c07d218&amp;id=641b5db84a&amp;f_id=00ddd2e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+         <div id="mc_embed_signup_scroll" >
+            <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+            <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div>
+            <div class="mc-field-group input-group">
+               <strong>Twewole Accounts </strong>
+               <ul>
+                  <li><input type="radio" name="group[142]" id="mce-group[142]-142-0" value="1"><label for="mce-group[142]-142-0">Twewole account (For Individuals and Small businesses)</label></li>
+                  <li><input type="radio" name="group[142]" id="mce-group[142]-142-1" value="2"><label for="mce-group[142]-142-1">Twewole business (For Financial products and service providers)</label></li>
+               </ul>
+               <span id="mce-group[142]-HELPERTEXT" class="helper_text"> Please confirm your account </span>
+            </div>
+            <div hidden=""><input type="hidden" name="tags" value="9696"></div>
+            <div id="mce-responses" class="clear">
+               <div class="response" id="mce-error-response" style="display: none;"></div>
+               <div class="response" id="mce-success-response" style="display: none;"></div>
+            </div>
+            <div aria-hidden="true" style="position: absolute; left: -5000px;"><input type="text" name="b_fc886a4404c34b3434c07d218_641b5db84a" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe"></div>
+         </div>
+      </form>
+   </div>
+   <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+</div>
                             <div class="chek-form">
                                 <div class="custome-checkbox">
                                     <input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox3" value="">
