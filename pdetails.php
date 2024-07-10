@@ -194,10 +194,10 @@
 
 
 
-        <div class="col-md-12">
+        <div class="">
             <form  method="POST" style="margin-top:20px;"  name="form1">
                 <div class="all-steps" id="all-steps"> <span class="step"></span> <span class="step"></span> <span class="step"></span> <span class="step"></span> </div>
-                         <div class="tab">
+                         <div class="">
                             <div class="row">
                                 <div class="col-lg-6">
                             <div class="form-group mb-3">
@@ -227,24 +227,31 @@
                     </div>
 
                     <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-lg-6">
                         <div class="form-group mb-12">
                              <label>Message</label>
-                            <textarea class="form-control" name="message"></textarea>
+                        <select class="form-select p-0" name="message" required>
+                            <option value="">-select-</option>
+                         <option value="How do I apply?">How do I apply ?
+                         </option>
+                         <option value="Give more details">Give more details</option>
+                         <option value="Schedule an appointment">Schedule an appointment</option>
+                        </select>
                         </div>
                     </div>
                     </div>
 
-                    <div class="row">
-                    <div class="col-lg-12">
-                        <br>
-                    </div>
-                    </div>
+            
+                          <div class="row mt-5 ">
+                          <div class="col-lg-4">
+                          <input type="button" data-bs-dismiss="modal" aria-label="Close" class="
+                          btn btn-danger" name="cancel" value="Cancel" >
+            </div>
+            <div class="col-lg-8">
+            <input type="submit" class="btn btn-primary" name="sendmessage" value="Send" style="foat:right">
 
-                          <div class="form-group mb-6">
-                             <label></label>
-                            <input type="submit" class="btn btn-primary" name="sendmessage" value="Send" ><input type="button" data-bs-dismiss="modal" aria-label="Close" class="
-                            btn btn-danger" name="cancel" value="Cancel" >
+            </div>
+                           
                         </div>
                          </div>
 
@@ -255,8 +262,18 @@
       </div>
       </div>
       <div class="modal-footer" style="display:none;">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Understood</button>
+        <div class="row">
+            <div class="col-lg-6"> 
+            <button type="button" class="btn btn-primary" style="float:right">Send</button>
+            </div>
+            <div class="col-lg-6">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+      
+       
+       
       </div>
     </div>
    </div>
