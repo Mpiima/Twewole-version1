@@ -912,7 +912,7 @@ data-textcolor="#ff8800" data-digitscolor="#ff5500">Kampala, Uganda</a>
                             <div class="row">
                               <div class="col-lg-4">
                               <div class="card">
-                                <img class="card-img" src="https://nairametrics.com/wp-content/uploads/2019/06/Loan1.jpg" alt="Bologna">
+                                <img class="card-img" src="loan experts final.png" alt="Bologna">
                                 <div class="card-img-overlay">
                                   <a  data-bs-toggle="modal" data-bs-target="#loan" class="btn btn-light btn-sm">Loan Experts</a>
                                 </div>                                                       
@@ -922,7 +922,7 @@ data-textcolor="#ff8800" data-digitscolor="#ff5500">Kampala, Uganda</a>
 
                               <div class="col-lg-4">
                               <div class="card">
-                                <img class="card-img" src="https://cdn.corporatefinanceinstitute.com/assets/trade-credit.jpeg" alt="Bologna">
+                                <img class="card-img" src="Insurance experts final.png" alt="Bologna">
                                 <div class="card-img-overlay">
                                   <a data-bs-toggle="modal" data-bs-target="#trade"class="btn btn-light btn-sm">Trade Credit Experts</a>
                                 </div>                                                         
@@ -931,7 +931,7 @@ data-textcolor="#ff8800" data-digitscolor="#ff5500">Kampala, Uganda</a>
 
                               <div class="col-lg-4">
                               <div class="card">
-                                <img class="card-img" src="https://www.bizcover.com.au/bizwitty/wp-content/uploads/2022/04/AdobeStock_259698256-810x574.jpeg" alt="Bologna">
+                                <img class="card-img" src="asset leasing experts.final.png" alt="Bologna">
                                 <div class="card-img-overlay">
                                   <a data-bs-toggle="modal" data-bs-target="#asset" class="btn btn-light btn-sm">Asset Leasing Experts</a>
                                 </div>                                                         
@@ -943,7 +943,7 @@ data-textcolor="#ff8800" data-digitscolor="#ff5500">Kampala, Uganda</a>
                             <div class="row">
                             <div class="col-lg-4">
                             <div class="card">
-                            <img class="card-img" src="https://images.squarespace-cdn.com/content/v1/62b201e44c6b053d7de1621c/1655859327907-PY0W0YPU4SR9S4TNCEMC/grants.jpg" alt="Bologna">
+                            <img class="card-img" src="Grants experts final.png" alt="Bologna">
                             <div class="card-img-overlay">
                             <a data-bs-toggle="modal" data-bs-target="#grantts" class="btn btn-light btn-sm">Grants Experts</a>
                             </div>                                                         
@@ -952,7 +952,7 @@ data-textcolor="#ff8800" data-digitscolor="#ff5500">Kampala, Uganda</a>
 
                             <div class="col-lg-4">
                             <div class="card">
-                            <img class="card-img" src="https://strategic-insurance.com/wp-content/uploads/2015/03/Fotolia_74551725_XS.jpg" alt="Bologna">
+                            <img class="card-img" src="Insurance experts final.png" alt="Bologna">
                             <div class="card-img-overlay">
                             <a data-bs-toggle="modal" data-bs-target="#insure" class="btn btn-light btn-sm">Insurances Experts</a>
                             </div>                                                         
