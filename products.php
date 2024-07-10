@@ -99,7 +99,7 @@ if($count_products>0){
           <img src="main/pages/<?php echo $row_products->advert; ?>" class="card-img-top" alt="No Image">
           <div class="card-body d-flex flex-column">
             <h5 class="card-title"><?php echo $row_products->title; ?></h5>
-            <p class="card-text mb-4">I<?php echo $row_products->summary; ?>.</p>
+            <p class="card-text mb-4"><?php echo $row_products->summary; ?>.</p>
             <?php if(isset($_SESSION['rolenumber'])){ ?>
             <a href="pdetails?id=<?php echo $row_products->loan_id; ?>" 
             class="btn btn-primary mt-auto align-self-start">Get connected</a>
