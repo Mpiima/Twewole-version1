@@ -131,7 +131,8 @@
                     ?>
                     <p style="font-size:15px; color:black;width:">
                         <?php 
-                        echo  $row_products->summary; 
+                        echo  $row_products->summary."<br>";
+                        echo " ".$row_products->amount_range;
                         ?>
                    </p>
 
