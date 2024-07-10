@@ -164,7 +164,7 @@
        <ol id="l2">
           <li data-list-text="1.">
              <h2 style="padding-top: 14pt;padding-left: 22pt;text-indent: -17pt;text-align: left;"><a name="bookmark14">&zwnj;</a>ACCEPTANCE OF THE TERMS</h2>
-             <p style="padding-top: 14pt;padding-left: 5pt;text-indent: 0pt;text-align: justify;">These Terms of Use (hereinafter referred to as the “Terms”) constitute a binding and enforceable legal contract between MCF Digital Twewole Solutions Ltd (hereinafter referred to as the “<b>Administrator</b>”, “<b>we</b>”, “<b>us</b>”) and you (<b>Twewole Account or Twewole Business Account </b>holder). Please read these Terms carefully.</p>
+             <p style="padding-top: 14pt;padding-left: 5pt;text-indent: 0pt;text-align: justify;">These Terms of Use (hereinafter referred to as the “Terms”) constitute a binding and enforceable legal contract between Twewole Ltd (hereinafter referred to as the “<b>Administrator</b>”, “<b>we</b>”, “<b>us</b>”) and you (<b>Twewole Account or Twewole Business Account </b>holder). Please read these Terms carefully.</p>
              <p style="text-indent: 0pt;text-align: left;"><br/></p>
              <ol id="l3">
                 <li data-list-text="1)">
@@ -545,7 +545,7 @@
           </li>
        </ol>
        <p style="text-indent: 0pt;text-align: left;"><br/></p>
-       <p class="s1" style="padding-left: 59pt;text-indent: 0pt;text-align: left;">MCF DIGITAL TWEWOLE SOLUTIONS LTD</p>
+       <p class="s1" style="padding-left: 59pt;text-indent: 0pt;text-align: left;">Twewole LTD</p>
        <p class="s1" style="padding-left: 59pt;text-indent: 0pt;text-align: left;">P.O BOX 960135, KAMPALA.</p>
        <p class="s1" style="padding-left: 59pt;text-indent: 0pt;text-align: left;">+256-743070700, +256-764045147.</p>
        <p style="padding-left: 59pt;text-indent: 0pt;text-align: left;"><a href="mailto:credit@twewole.com" class="s4">credit@twewole.com</a></p>

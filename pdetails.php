@@ -101,11 +101,11 @@
                                 $mail->Port       = 465;                              
                             
                                 //Recipients
-                                $mail->setFrom('twewoleaccounts@twewole.com', 'MCF Digital Twewole Solutions');
+                                $mail->setFrom('twewoleaccounts@twewole.com', 'Twewole');
                                 // $mail->addAddress( $email, $fullname);    
-                                $mail->addAddress('twewoleaccounts@twewole.com','MCF Digital Twewole Solutions'); 
+                                $mail->addAddress('twewoleaccounts@twewole.com','Twewole'); 
                                 $mail->addAddress($row_company->item7,$row_company->item); 
-                                $mail->addReplyTo('twewoleaccounts@twewole.com', 'MCF Digital Twewole Solutions');
+                                $mail->addReplyTo('twewoleaccounts@twewole.com', 'Twewole');
                                 // $mail->addCC('collinsmpiima@gmail.com');
                                 // $mail->addBCC('collinsmpiima@gmail.com');
                             
@@ -141,7 +141,7 @@
             <div class="row">
                 <div class="col-md-2">
                     <a href="<?php echo $row_products->howtoapply; ?>" class="btn btn-outline-warning"
-                    data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="color:black">Apply Now</a></div>
+                    data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="color:black">Connect</a></div>
                 <div class="col-md-3">
                 <?php if(isset($_SESSION['rolenumber'])){
                     ?>
@@ -512,7 +512,7 @@
                     Enjoy Flexibility, Great value, and take advantage of the Latest and Most lucrative offers on the market.</p>
 
                 </div>
-                <div class="col-md-2"><a href="#" class="btn btn-outline-warning">Apply Now</a></div>
+                <div class="col-md-2"><a href="#" class="btn btn-outline-warning">Connect</a></div>
                 <div class="col-md-2">
                     <?php if(isset($_SESSION['rolenumber'])){?>
                     <!-- <a href="login" class="btn btn-outline-success" style="color:white;">Ask Expert</a> -->

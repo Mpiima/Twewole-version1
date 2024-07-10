@@ -634,7 +634,7 @@ Get connected to Loans, Trade credit, Asset leasing, and Grants to support your 
 <!-- END SECTION SHOP -->
 
 <!-- START SECTION BANNER --> 
-<div class="section background_bg" data-img-src="main/pages/uploads/ct.jpg">
+<div class="section background_bg" data-img-src="tryus.jpg">
 	<div class="container">
     	<div class="row">
             <div class="col-lg-7 col-md-8 col-sm-9">

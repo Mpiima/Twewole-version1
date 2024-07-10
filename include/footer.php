@@ -266,7 +266,7 @@
       <div class="container">
          <div class="row">
             <div class="col-md-12">
-               <p class="mb-md-0 text-center text-md-center">© 2024 All Rights Reserved by MCF Digital Twewole Solutions 
+               <p class="mb-md-0 text-center text-md-center">© 2024 All Rights Reserved by Twewole 
                <hr>
                <span style="font-size:13px;"> Welcome to TWEWOLE, Our network is designed to connect Individuals and Small businesses  to  Loans, Trade credit, Asset leasing, and Grants. We also  provide access to professional experts, insurance,  business partners, money markets and tools that guide them towards financial success. 
                It's important to note that we are not registered as a broker or dealer and do not provide Investment or Insurance advice. We do not provide funding nor make any recommendations or suggestions to a Financier to participate in any transaction or deal. Our platform does not involve the purchase, sale, negotiation, execution, possession, or compensation of securities in any way. Our Focus is solely on helping you connect and coordinate money, credit and finance Information and Activities in a safe and fair manner.  </span>

@@ -231,8 +231,8 @@ if($insert_users){
         $mail->Password   = 'Credit2023';                              
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            
         $mail->Port       = 465;                              
-        $mail->setFrom('twewoleaccounts@twewole.com', 'MCF Digital Twewole Solutions'); 
-        $mail->addAddress('twewoleaccounts@twewole.com','MCF Digital Twewole Solutions'); 
+        $mail->setFrom('twewoleaccounts@twewole.com', 'Twewole'); 
+        $mail->addAddress('twewoleaccounts@twewole.com','Twewole'); 
         $mail->isHTML(true);
         $mail->Subject = 'New User';
         $mail->Body    = $organised;    
@@ -247,7 +247,7 @@ if($insert_users){
          $mail2->Password   = 'Credit2023';                              
          $mail2->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            
          $mail2->Port       = 465;                              
-         $mail2->setFrom('twewoleaccounts@twewole.com', 'MCF Digital Twewole Solutions'); 
+         $mail2->setFrom('twewoleaccounts@twewole.com', 'Twewole'); 
          $mail2->addAddress($email,"Twewole Account Credentials"); 
          $mail2->isHTML(true);
          $mail2->Subject = 'Your Twewole Account';
