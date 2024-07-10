@@ -186,7 +186,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12">
                <div class="widget">
                   <div class="footer_logo">
-                     <img src="lg.png" width="50%">
+                     <img src="logo.png" width="50%">
                   </div>
                   <!-- <p>
                      Welcome to <span style="color:purple; font-weight:bold;">TWEWOLE</span>, Our network is designed to connect Individuals and Small businesses  to  Loans, Trade credit, Asset leasing, and Grants. We also  provide access to professional experts, insurance, 
