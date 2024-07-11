@@ -326,7 +326,7 @@ if(isset($_POST['updateData'])){
                     <th>Nature</th>
                     <th>Amount</th>
                     <th>Grant Benefits</th>
-                    <th>Grant Features</th>
+                    <th>Grant Requirements</th>
                     <th>Promotion Image</th>
                     <th>Action</th>
                   </tr>

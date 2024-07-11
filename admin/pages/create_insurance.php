@@ -343,7 +343,7 @@ if(isset($_POST['delete'])){
                     <th>Nature</th>
                     <th>Amount</th>
                     <th>insurance Benefits</th>
-                    <th>insurance Features</th>
+                    <th>Insurance Requirements</th>
                     <th>Action</th>
                   </tr>
                   </thead>

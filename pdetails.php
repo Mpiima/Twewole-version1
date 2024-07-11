@@ -87,7 +87,7 @@
                         $row_users=$result_users->fetchObject();
 
 
-                        $organised = $message."<br><hr> <h4>Customer Details</h4>Name : ". $row_users->firstname."<br>Email: ". $row_users->email."<br>Contact: ". $row_users->phonenumber."<br>Product :".$row_products->title."<br><br>"."<a href='login'>Click here to visit your Account</a>";
+                        $organised = $message."<br><hr> <h4>Customer Details</h4>Name : ". $row_users->firstname."<br>Email: ". $row_users->email."<br>Contact: ". $row_users->phonenumber."<br>Product :".$row_products->title."<br><br>"."<a href='twewole.com/login'>Click here to visit your Account</a>";
                         $ad = $message."<br><hr> <h4>Service Provider </h4>Name : ".$row_company->item."<br>Email: ".$row_company->item7."<br>Contact: ".$row_company->item2."<br>Product :".$row_products->title."<br><br>"
                         ."<br><hr> <h4>Customer Details</h4>Name : ". $row_users->firstname."<br>Email: ". $row_users->email."<br>Contact: ". $row_users->phonenumber."<br>Product :".$row_products->title."<br><br>"."<a href='login'>Click here to visit your Account</a>";
 
