@@ -129,8 +129,8 @@
                     <tr>
                       
                       <th>Product</th>
-                      <th>client's Email</th>
-                      <th>client's contact</th>
+                      <th>Client</th>
+                      <th>Message</th>
                       <th>Sent_On</th>
                       <th>Actions</th>
                     </tr>
@@ -152,14 +152,21 @@
                         $result_users=$dbh->query("SELECT * FROM users WHERE autoid=$row_m->sent_to");
                         $row_users=$result_users->fetchObject();
 
+                        $result_client=$dbh->query("SELECT * FROM users WHERE rolenumber='CL310'");
+                        $row_client=$result_client->fetchObject();
+
                         $result_p=$dbh->query("SELECT * FROM products WHERE loan_id='$row_m->productid'");
                         $row_product=$result_p->fetchObject();
                         ?>
                     <tr>
                      
                       <td><?php echo $row_product->title;  ?></td>
-                      <td><?php echo $row_m->email; ?></td>
-                      <td><?php echo $row_m->contact; ?></td> 
+                      <td>Name : <?php echo $row_client->firstname." ".$row_client->lastname; ?><br>
+                      Email : <?php echo $row_client->email; ?><br>
+                      Contact : <?php echo $row_client->phonenumber; ?>
+                    </td>
+     
+                      <td><?php echo $row_m->mes; ?></td> 
                       <td><?php echo $row_m->createdon; ?></td>
                       <td>
                       <form method='post' onsubmit="return delete_checker('Data','Deleted');"> 
