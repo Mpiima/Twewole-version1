@@ -67,6 +67,7 @@
                     require 'vendor/autoload.php';
 
                     $mail = new PHPMailer(true);
+                    $mail3 = new PHPMailer(true);
 
                     $result_company=$dbh->query("SELECT * FROM scrap WHERE autoid= $row_products->institution");
                     $row_company=$result_company->fetchObject();
@@ -79,12 +80,17 @@
                         $message=$_POST['message'];
                         $email=$_POST['email'];
                         $contact=$_POST['contact'];
-                      $user_number=$_SESSION['rolenumber'];
+                        $user_number=$_SESSION['rolenumber'];
+
+                        $result_users=$dbh->query("SELECT * FROM users WHERE rolenumber='".$_SESSION['rolenumber']."'");
+                        $count_users=$result_users->rowCount();
+                        $row_users=$result_users->fetchObject();
 
 
+                        $organised = $message."<br><hr> <h4>Customer Details</h4>Name : ". $row_users->firstname."<br>Email: ". $row_users->email."<br>Contact: ". $row_users->phonenumber."<br>Product :".$row_products->title."<br><br>"."<a href='login'>Click here to visit your Account</a>";
+                        $ad = $message."<br><hr> <h4>Service Provider </h4>Name : ".$row_company->item."<br>Email: ".$row_company->item7."<br>Contact: ".$row_company->item2."<br>Product :".$row_products->title."<br><br>"
+                        ."<br><hr> <h4>Customer Details</h4>Name : ". $row_users->firstname."<br>Email: ". $row_users->email."<br>Contact: ". $row_users->phonenumber."<br>Product :".$row_products->title."<br><br>"."<a href='login'>Click here to visit your Account</a>";
 
-                        $organised = $message."<br><hr> <h4>Customer Details</h4>Name : ".$fullname."<br>Email: ".$email."<br>Contact: ".$contact."<br>Product :".$row_products->title;
-                       
                         $insert_m = $dbh->query("INSERT INTO messaged(sent_to,productid,mes,status,addedby,client)
                         value('$row_products->institution','".$_GET['id']."','$message',1,'$row_products->addedby','$user_number')");
                         if($insert_m){
@@ -101,31 +107,32 @@
                                 $mail->Password   = 'Credit2023';                             
                                 $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            
                                 $mail->Port       = 465;                              
-                            
-                                //Recipients
-                                $mail->setFrom('twewoleaccounts@twewole.com', 'Twewole');
-                                // $mail->addAddress( $email, $fullname);    
-                                $mail->addAddress('twewoleaccounts@twewole.com','Twewole'); 
+                                $mail->setFrom('twewoleaccounts@twewole.com', 'Twewole');    
                                 $mail->addAddress($row_company->item7,$row_company->item); 
                                 $mail->addReplyTo('twewoleaccounts@twewole.com', 'Twewole');
-                                // $mail->addCC('collinsmpiima@gmail.com');
-                                // $mail->addBCC('collinsmpiima@gmail.com');
-                            
-                            
-                                // $mail->addAttachment('/var/tmp/file.tar.gz');        
-                                // $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    
-                            
-                                //Content
                                 $mail->isHTML(true);
                                 $mail->Subject = 'Customer Request';
                                 $mail->Body    = $organised;
-                                                  
-                                // $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
-                            
                                 $mail->send();
-                                // echo 'Message has been sent';
+
+
+                                $mail3->isSMTP();                                           
+                                $mail3->Host       = 'mail.twewole.com';                    
+                                $mail3->SMTPAuth   = true;                                   
+                                $mail3->Username   = 'twewoleaccounts@twewole.com';                     
+                                $mail3->Password   = 'Credit2023';                             
+                                $mail3->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            
+                                $mail3->Port       = 465;                              
+                                $mail3->setFrom('twewoleaccounts@twewole.com', 'Twewole');   
+                                $mail3->addAddress('twewoleaccounts@twewole.com','Twewole');
+                                $mail3->addReplyTo('twewoleaccounts@twewole.com', 'Twewole');
+                                $mail3->isHTML(true);
+                                $mail3->Subject = 'Customer Request';
+                                $mail3->Body    = $ad;
+                                $mail3->send();
+                                
                             } catch (Exception $e) {
-                                echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+                                echo "Message could not be sent. Mailer Error: {$mail3->ErrorInfo}";
                             }
 
                         }
