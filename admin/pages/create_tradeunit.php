@@ -339,8 +339,8 @@ if(isset($_POST['updateData'])){
                     <th>tradeunit</th>
                     <th>Nature</th>
                     <th>Amount</th>
-                    <th>tradeunit Benefits</th>
-                    <th>tradeunit Features</th>
+                    <th>TradeCredit Benefits</th>
+                    <th>TradeCredit  Requirements</th>
                     <th>Action</th>
                   </tr>
                   </thead>

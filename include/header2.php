@@ -11,7 +11,7 @@ It's important to note that we are not registered as a broker or dealer and do n
 <!-- SITE TITLE -->
 <title>Twewole | Money & Credit</title>
 <!-- Favicon Icon -->
-<link rel="shortcut icon" type="image/x-icon" href="iconn.png">
+<link rel="shortcut icon" type="image/x-icon" href="include/iconImage.png">
 <!-- Animation CSS -->
 <link rel="stylesheet" href="assets/css/animate.css">	
 <!-- Latest Bootstrap min CSS -->
