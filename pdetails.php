@@ -71,6 +71,7 @@
                     $result_company=$dbh->query("SELECT * FROM scrap WHERE autoid= $row_products->institution");
                     $row_company=$result_company->fetchObject();
 
+                    error_reporting(1);
                      if(isset($_POST['sendmessage'])){
                         $fname=$_POST['fname'];
                         $lname=$_POST['lastname'];
@@ -78,13 +79,14 @@
                         $message=$_POST['message'];
                         $email=$_POST['email'];
                         $contact=$_POST['contact'];
+                      $user_number=$_SESSION['rolenumber'];
 
 
 
                         $organised = $message."<br><hr> <h4>Customer Details</h4>Name : ".$fullname."<br>Email: ".$email."<br>Contact: ".$contact."<br>Product :".$row_products->title;
                        
-                        $insert_m = $dbh->query("INSERT INTO messaged(sent_to,productid,mes,email,contact,status,addedby)
-                        value('$row_products->institution','".$_GET['id']."','$message','$email','$contact',1,'$row_products->addedby')");
+                        $insert_m = $dbh->query("INSERT INTO messaged(sent_to,productid,mes,status,addedby,client)
+                        value('$row_products->institution','".$_GET['id']."','$message',1,'$row_products->addedby','$user_number')");
                         if($insert_m){
                             echo "<p style='color:orange'>Application successful! We shall contact you as soon as Possible! </p>";
 
@@ -159,7 +161,7 @@
 
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
  aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg ">
+  <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="staticBackdropLabel">Service Provider  :  <?php echo $row_company->item; ?> </h5>
@@ -195,24 +197,25 @@
 
 
         <div class="">
-            <form  method="POST" style="margin-top:20px;"  name="form1">
-                <div class="all-steps" id="all-steps"> <span class="step"></span> <span class="step"></span> <span class="step"></span> <span class="step"></span> </div>
+            <form  method="POST" style="margin-top:2px;"  name="form1">
+                <div class="all-steps" id="all-steps"> <span class="step"></span> <span class="step"></span>
+                 <span class="step"></span> <span class="step"></span> </div>
                          <div class="">
                             <div class="row">
-                                <div class="col-lg-6">
+                                <!-- <div class="col-lg-6">
                             <div class="form-group mb-3">
                                 <label>Firstname</label>
                                 <input type="text" required="true" 
                                 class="form-control" name="fname" placeholder="Enter Firstname">
-                            </div></div>
-                        <div class="col-lg-6">
+                            </div></div> -->
+                        <!-- <div class="col-lg-6">
                             <div class="form-group mb-3">
                                  <label>Lastname</label>
                                 <input type="text" required="true" class="form-control" name="lastname" placeholder="Enter Your Last Name">
                             </div>   
-                         </div></div>
+                         </div></div> -->
                   <div class="row">
-                    <div class="col-lg-6">
+                    <!-- <div class="col-lg-6">
                         <div class="form-group mb-3">
                              <label>Email</label>
                             <input  type="email" required="true" class="form-control" name="email" placeholder="Your Email">
@@ -223,14 +226,14 @@
                              <label>Contact.</label>
                             <input  type="text" required="true" class="form-control" name="contact" placeholder="Tel no.">
                         </div>
-                    </div>
+                    </div> -->
                     </div>
 
                     <div class="row">
-                    <div class="col-lg-6">
-                        <div class="form-group mb-12">
+                    <div class="col-lg-12">
+                        <div class="form-group mb-4 mt-2">
                              <label>Message</label>
-                        <select class="form-select p-0" name="message" required>
+                        <select class="form-select p-0 mt-3" name="message" required>
                             <option value="">-select-</option>
                          <option value="How do I apply?">How do I apply ?
                          </option>
@@ -239,17 +242,18 @@
                         </select>
                         </div>
                     </div>
-                    </div>
+                 
 
             
-                          <div class="row mt-5 ">
+                          <div class="row ">
                           <div class="col-lg-4">
                           <input type="button" data-bs-dismiss="modal" aria-label="Close" class="
-                          btn btn-danger" name="cancel" value="Cancel" >
+                          btn btn-danger p-2" name="cancel" value="Cancel" >
             </div>
             <div class="col-lg-8">
-            <input type="submit" class="btn btn-primary" name="sendmessage" value="Send" style="foat:right">
+            <input type="submit" class="btn btn-primary p-2" name="sendmessage" value="Send Now" style="float:right">
 
+            </div>
             </div>
                            
                         </div>

@@ -114,7 +114,7 @@ if(!isset($_SESSION['role'])){
           <div class="col-12">
             <div class="card">
               <div class="card-header">
-                <h3 class="card-title">...Requests/Engagements...</h3>
+                <h3 class="card-title">...Requests/Engagementsadwefew...</h3>
                      <?php 
                      if(isset($_POST['activate'])){
                       $id=$_POST['id'];
@@ -182,6 +182,9 @@ if(!isset($_SESSION['role'])){
                         $result_users=$dbh->query("SELECT * FROM users WHERE autoid=$row_m->sent_to");
                         $row_users=$result_users->fetchObject();
 
+                        $result_client=$dbh->query("SELECT * FROM users WHERE autoid=$row_m->client");
+                        $row_client=$result_client->fetchObject();
+
                         $result_p=$dbh->query("SELECT * FROM products WHERE loan_id='$row_m->productid'");
                         $row_product=$result_p->fetchObject();
                         ?>
@@ -192,8 +195,8 @@ if(!isset($_SESSION['role'])){
                         
                       </td>
                       <td><?php echo $row_product->title;  ?></td>
-                      <td><?php echo $row_m->email; ?></td>
-                      <td><?php echo $row_m->contact; ?></td> 
+                      <td><?php echo $row_client->email; ?></td>
+                      <td><?php echo $row_client->contact; ?></td> 
                       <td>
                       <form method='post' onsubmit="return delete_checker('Data','Deleted');"> 
                         <input type='hidden' name='autoid' value='<?php echo $row_m->autoid; ?>'>
