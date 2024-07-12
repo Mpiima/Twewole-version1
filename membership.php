@@ -146,11 +146,9 @@ $uid=$role.$fyy.$mm.$dd.$hi.$mi.$fsa+$autoid;
 // $organised = "A New user has registerd: Below is the user Details : <br>Email: ".$email."<br>Contact: ".$contact."<br>
 // <a href='twewole.com/login'>twewole.com/login</a>";
 
-$messageForUser = "Hi, ".$fname." ".$lname.", has registered for a Twewole Account with
-Username: " . $email . "<br>";
+$messageForUser = "Hi, ".$fname." ".$lname.", has registered for a Twewole Account with username ". $email ."<br>";
 
-
-$organised = "Hi".$fname." ".$lname.",<br><br>
+$organised = "Hi " . $lname . ",<br><br>
 Welcome to your new account. Below are your credentials:<br><br>
 Username: " . $email . "<br>
 Password: " . $password . "<br><br>
@@ -163,6 +161,7 @@ Email: <a href='mailto:credit@twewole.com'>credit@twewole.com</a><br><br>
 Sincerely,<br>
 Twewole Family<br><br>
 P.S: Subscribe to our Newsletter for the latest financing tips, products and services.";
+
 
 // $messageForUSer = "Thank you For registering : Below are your Credentials : <br>username: ".$email."<br>Password: ".$password."<br>Br>
 // <a href='twewole.com/login'>twewole.com/login</a>";
@@ -186,7 +185,7 @@ if($insert_keyfields){
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            
         $mail->Port       = 465;                              
         $mail->setFrom('twewoleaccounts@twewole.com', 'Twewole'); 
-        $mail->addAddress($email,$fname); 
+        $mail->addAddress('twewoleaccounts@twewole.com','Twewole'); 
         $mail->isHTML(true);
         $mail->Subject = 'New User';
         $mail->Body    = $messageForUSer;    
@@ -202,13 +201,14 @@ if($insert_keyfields){
          $mail2->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            
          $mail2->Port       = 465;                              
          $mail2->setFrom('twewoleaccounts@twewole.com', 'Twewole'); 
-         $mail2->addAddress($email,"Twewole Account Credentials"); 
+         $mail2->addAddress($email,$fname); 
          $mail2->isHTML(true);
          $mail2->Subject = 'Your Twewole Account';
          $mail2->Body    = $organised;    
          $mail2->send();
         
     } catch (Exception $e) {
+        echo  $mail2->Body    = $organised; 
         echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
     }
 
@@ -216,8 +216,9 @@ if($insert_keyfields){
     //redirect to login
     ?>
 <script>
-var allowed=function(){window.location='login';}
-setTimeout(allowed,4000);
+// var allowed=function(){window.location='login';   
+// }
+// setTimeout(allowed,4000);
 </script>
 <?php
 }else{
