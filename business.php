@@ -143,8 +143,7 @@ $ispending=2;
 $uid=$role.$fyy.$mm.$dd.$hi.$mi.$fsa+$autoid;
 
 
-$messageForUser = "Hi, ".$fname." ".$lname.", has registered for a Twewole Business Account with
-Username: " . $email . "<br>";
+$messageForUser = "Hi, ".$fname." ".$lname.", has registered for a Twewole Business Account with username: ".$email;
 
 
 $organised = "Hi".$fname." ".$lname.",<br><br>
