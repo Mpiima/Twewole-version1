@@ -208,7 +208,7 @@ if($insert_keyfields){
          $mail2->send();
         
     } catch (Exception $e) {
-        echo  $mail2->Body    = $organised; 
+        // echo  $mail2->Body    = $organised; 
         echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
     }
 
