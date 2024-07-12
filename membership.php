@@ -146,7 +146,6 @@ $uid=$role.$fyy.$mm.$dd.$hi.$mi.$fsa+$autoid;
 // $organised = "A New user has registerd: Below is the user Details : <br>Email: ".$email."<br>Contact: ".$contact."<br>
 // <a href='twewole.com/login'>twewole.com/login</a>";
 
-$messageForUser = "Hi, ".$fname." ".$lname.", has registered for a Twewole Account with username ". $email ."<br>";
 
 $organised = "Hi " . $lname . ",<br><br>
 Welcome to your new account. Below are your credentials:<br><br>
@@ -161,6 +160,9 @@ Email: <a href='mailto:credit@twewole.com'>credit@twewole.com</a><br><br>
 Sincerely,<br>
 Twewole Family<br><br>
 P.S: Subscribe to our Newsletter for the latest financing tips, products and services.";
+
+$messageForUSer = "Hi " . $fname . " " . $lname . " <br><br>
+You have successfully registered for a Twewole account with the username: " . $email . ".<br>";
 
 
 // $messageForUSer = "Thank you For registering : Below are your Credentials : <br>username: ".$email."<br>Password: ".$password."<br>Br>
