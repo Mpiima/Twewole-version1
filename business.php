@@ -111,7 +111,7 @@ button:hover {
 </div>
 <div class="main_content bg_gray" style="background-color: !important;">
 <?php
-error_reporting(0);
+error_reporting(1);
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
@@ -248,7 +248,7 @@ if($insert_users){
         $mail->addAddress('twewoleaccounts@twewole.com','Twewole'); 
         $mail->isHTML(true);
         $mail->Subject = 'New User';
-        $mail->Body    = $organised;    
+        $mail->Body    = $messageForUSer;    
         $mail->send();
         //end
 
@@ -264,7 +264,7 @@ if($insert_users){
          $mail2->addAddress($email,$fname); 
          $mail2->isHTML(true);
          $mail2->Subject = 'Your Twewole Account';
-         $mail2->Body    = $messageForUSer;    
+         $mail2->Body    = $organised;    
          $mail2->send();
         
     } catch (Exception $e) {
