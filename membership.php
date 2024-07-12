@@ -161,8 +161,7 @@ Sincerely,<br>
 Twewole Family<br><br>
 P.S: Subscribe to our Newsletter for the latest financing tips, products and services.";
 
-$messageForUSer = "Hi " . $fname . " " . $lname . " <br><br>
-You have successfully registered for a Twewole account with the username: " . $email . ".<br>";
+$messageForUSer =  $fname . " " . $lname . " has successfully registered for a Twewole account with the username: " . $email . ".<br>";
 
 
 // $messageForUSer = "Thank you For registering : Below are your Credentials : <br>username: ".$email."<br>Password: ".$password."<br>Br>

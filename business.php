@@ -143,10 +143,7 @@ $ispending=2;
 $uid=$role.$fyy.$mm.$dd.$hi.$mi.$fsa+$autoid;
 
 
-$messageForUser = "Hi, ".$fname." ".$lname.", has registered for a Twewole Business Account with username: ".$email;
-
-
-$organised = "Hi".$fname." ".$lname.",<br><br>
+$organised = "Hi " . $lname . ",<br><br>
 Welcome to your new account. Below are your credentials:<br><br>
 Username: " . $email . "<br>
 Password: " . $password . "<br><br>
@@ -159,6 +156,9 @@ Email: <a href='mailto:credit@twewole.com'>credit@twewole.com</a><br><br>
 Sincerely,<br>
 Twewole Family<br><br>
 P.S: Subscribe to our Newsletter for the latest financing tips, products and services.";
+
+$messageForUSer =  $fname . " " . $lname . " has successfully registered for a Twewole account with the username: " . $email . ".<br>";
+
 
 //get the logo========
 $logo=$_POST['logo'];
