@@ -157,7 +157,7 @@ Sincerely,<br>
 Twewole Family<br><br>
 P.S: Subscribe to our Newsletter for the latest financing tips, products and services.";
 
-$messageForUSer =  $fname . " " . $lname . " has successfully registered for a Twewole account with the username: " . $email . ".<br>";
+$messageForUSer =  $tradename . " has successfully registered for a Twewole Business account with the username: " . $email . ".<br>";
 
 
 //get the logo========
