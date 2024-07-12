@@ -143,10 +143,40 @@ $status=1;
 $ispending=2;
 $uid=$role.$fyy.$mm.$dd.$hi.$mi.$fsa+$autoid;
 
-$organised = "A New user has registerd: Below is the user Details : <br>Email: ".$email."<br>Contact: ".$contact."<br>
-<a href='twewole.com/login'>twewole.com/login</a>";
-$messageForUSer = "Thank you For registering : Below are your Credentials : <br>username: ".$email."<br>Password: ".$password."<br>Br>
-<a href='twewole.com/login'>twewole.com/login</a>";
+// $organised = "A New user has registerd: Below is the user Details : <br>Email: ".$email."<br>Contact: ".$contact."<br>
+// <a href='twewole.com/login'>twewole.com/login</a>";
+
+$messageForUser = "Hi ……………………..,<br><br>
+Welcome to your new account. Below are your credentials:<br><br>
+Username: " . $email . "<br>
+Password: " . $password . "<br><br>
+You can log in anytime by visiting <a href='https://twewole.com/signin'>https://twewole.com/signin</a>. Please note that our staff will never ask for your password. If you have any questions, stop by the FAQ at <a href='https://twewole.com/faq'>https://twewole.com/faq</a>.<br><br>
+Good luck!<br><br>
+Contact us on:<br>
+Call: 0743070700 or 0764045147<br>
+WhatsApp: 0726093614<br>
+Email: <a href='mailto:credit@twewole.com'>credit@twewole.com</a><br><br>
+Sincerely,<br>
+Twewole Family<br><br>
+P.S: Subscribe to our Newsletter for the latest financing tips, products and services.";
+
+
+$organised = "Hi ……………………..,<br><br>
+Welcome to your new account. Below are your credentials:<br><br>
+Username: " . $email . "<br>
+Password: " . $password . "<br><br>
+You can log in anytime by visiting <a href='https://twewole.com/signin'>https://twewole.com/signin</a>. Please note that our staff will never ask for your password. If you have any questions, stop by the FAQ at <a href='https://twewole.com/faq'>https://twewole.com/faq</a>.<br><br>
+Good luck!<br><br>
+Contact us on:<br>
+Call: 0743070700 or 0764045147<br>
+WhatsApp: 0726093614<br>
+Email: <a href='mailto:credit@twewole.com'>credit@twewole.com</a><br><br>
+Sincerely,<br>
+Twewole Family<br><br>
+P.S: Subscribe to our Newsletter for the latest financing tips, products and services.";
+
+// $messageForUSer = "Thank you For registering : Below are your Credentials : <br>username: ".$email."<br>Password: ".$password."<br>Br>
+// <a href='twewole.com/login'>twewole.com/login</a>";
 
 $insert_users=$dbh->query("INSERT INTO users(firstname,lastname,phonenumber,
 email,username,password,status,rolenumber,userid,role)VALUES('$fname','$lname',
