@@ -142,10 +142,24 @@ $status=1;
 $ispending=2;
 $uid=$role.$fyy.$mm.$dd.$hi.$mi.$fsa+$autoid;
 
-$organised = "A New user has registerd: Below is the user Details : <br>Email: ".$email."<br>Contact: ".$phonenumber."<br>
-<a href='twewole.com/login'>twewole.com/login</a>";
-$messageForUSer = "Thank you For registering : Below are your Credentials : <br>username: ".$email."<br>Password: ".$password."<br>Br>
-<a href='twewole.com/login'>twewole.com/login</a>";
+
+$messageForUser = "Hi, ".$fname." ".$lname.", has registered for a Twewole Business Account with
+Username: " . $email . "<br>";
+
+
+$organised = "Hi".$fname." ".$lname.",<br><br>
+Welcome to your new account. Below are your credentials:<br><br>
+Username: " . $email . "<br>
+Password: " . $password . "<br><br>
+You can log in anytime by visiting <a href='https://twewole.com/login'>https://twewole.com/login</a>. Please note that our staff will never ask for your password. If you have any questions, stop by the FAQ at <a href='https://twewole.com/faq'>https://twewole.com/faq</a>.<br><br>
+Good luck!<br><br>
+Contact us on:<br>
+Call: 0743070700 or 0764045147<br>
+WhatsApp: 0726093614<br>
+Email: <a href='mailto:credit@twewole.com'>credit@twewole.com</a><br><br>
+Sincerely,<br>
+Twewole Family<br><br>
+P.S: Subscribe to our Newsletter for the latest financing tips, products and services.";
 
 //get the logo========
 $logo=$_POST['logo'];
@@ -248,7 +262,7 @@ if($insert_users){
          $mail2->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            
          $mail2->Port       = 465;                              
          $mail2->setFrom('twewoleaccounts@twewole.com', 'Twewole'); 
-         $mail2->addAddress($email,"Twewole Account Credentials"); 
+         $mail2->addAddress($email,$fname); 
          $mail2->isHTML(true);
          $mail2->Subject = 'Your Twewole Account';
          $mail2->Body    = $messageForUSer;    
