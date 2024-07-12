@@ -142,7 +142,12 @@ $status=1;
 $ispending=2;
 $uid=$role.$fyy.$mm.$dd.$hi.$mi.$fsa+$autoid;
 
+$result_checkUser=$dbh->query("select * from users WHERE email='$email'");
+$row_checkUsers=$result_checkUser->fetchObject();
 
+if($row_checkUsers->email == $email){
+    echo "<div class='alert alert-danger'>Error! Failed to register, Email Already Exists . Try Again</div>";
+}else if($row_checkUsers->email != $email){
 $organised = "Hi " . $lname . ",<br><br>
 Welcome to your new account. Below are your credentials:<br><br>
 Username: " . $email . "<br>
@@ -280,6 +285,7 @@ if($insert_users){
 <script>
 </script>
 <?php
+}
 }else{
     echo "<div class='alert alert-danger'>Error! Failed to register, Try Again</div>";
 }

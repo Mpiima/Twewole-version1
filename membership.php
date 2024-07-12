@@ -143,10 +143,16 @@ $status=1;
 $ispending=2;
 $uid=$role.$fyy.$mm.$dd.$hi.$mi.$fsa+$autoid;
 
+$result_checkUser=$dbh->query("select * from users WHERE email='$email'");
+$row_checkUsers=$result_checkUser->fetchObject();
+
+
 // $organised = "A New user has registerd: Below is the user Details : <br>Email: ".$email."<br>Contact: ".$contact."<br>
 // <a href='twewole.com/login'>twewole.com/login</a>";
 
-
+if($row_checkUsers->email == $email){
+    echo "<div class='alert alert-danger'>Error! Failed to register, Email Already Exists . Try Again</div>";
+}else if($row_checkUsers->email != $email){
 $organised = "Hi " . $lname . ",<br><br>
 Welcome to your new account. Below are your credentials:<br><br>
 Username: " . $email . "<br>
@@ -222,6 +228,7 @@ if($insert_keyfields){
 // setTimeout(allowed,4000);
 </script>
 <?php
+}
 }else{
     echo "<div class='alert alert-danger'>Error! Failed to register, Try Again</div>";
 } }
