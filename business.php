@@ -148,7 +148,7 @@ $row_checkUsers=$result_checkUser->fetchObject();
 if($row_checkUsers->email == $email){
     echo "<div class='alert alert-danger'>Error! Failed to register, Email Already Exists . Try Again</div>";
 }else if($row_checkUsers->email != $email){
-$organised = "Hi " . $lname . ",<br><br>
+$organised2 = "Hi " . $lname . ",<br><br>
 Welcome to your new account. Below are your credentials:<br><br>
 Username: " . $email . "<br>
 Password: " . $password . "<br><br>
@@ -165,7 +165,34 @@ P.S: Subscribe to our Newsletter for the latest financing tips, products and ser
 $messageForUSer =  $tradename . " has successfully registered for a Twewole Business account with the username: " . $email . ".<br>";
 
 
+$organised = "
+<html>
+<head>
+    <title>Welcome to Twewole Business</title>
+</head>
+<body>
+    <p>Hi $lname ($tradename)</p>
+    <p>Thank you for choosing Twewole Business! Enjoy your 30-day trial as you showcase your products and services on our platform. Note that a recent Trading or Operating license or both is required to utilize your account fully.</p>
+    <p>Below are your credentials:</p>
+    <ul>
+        <li>Username: $email</li>
+        <li>Password: $password</li>
+    </ul>
+    <p>You can log in anytime by visiting <a href='https://twewole.com/login'>https://twewole.com/login</a>. Please note that our staff will never ask for your password. If you have any questions, stop by the FAQ at <a href='https://twewole.com/faq'>https://twewole.com/faq</a>.</p>
+    <p>We’ll remind you when you have a few days left in your trial.</p>
+    <p>Contact us:</p>
+    <ul>
+        <li>Call: 0743070700 or 0764045147</li>
+        <li>WhatsApp: 0726093614</li>
+        <li>Email: <a href='mailto:credit@twewole.com'>credit@twewole.com</a></li>
+    </ul>
+    <p>Sincerely,<br/>Twewole Family</p>
+    <p>P.S. Subscribe to our Newsletter for the latest information on how to enjoy the services that come with your business account.</p>
+</body>
+</html>
+";
 //get the logo========
+if (isset($_FILES['logo']) && $_FILES['logo']['error'] == UPLOAD_ERR_OK) {
 $logo=$_POST['logo'];
 $target_dir = "main/pages/uploads/logos/";
 $target_file = $target_dir . basename($_FILES["logo"]["name"]);
@@ -207,11 +234,15 @@ if ($uploadOk == 0) {
     "Sorry, there was an error uploading your file.";
   }
 }
+
+} else {
+    $target_file = "";
+}
+
+
+
 //get the document ====
 $target_dir2 = "main/pages/uploads/documents/";
-// $target_file2 = $target_dir2 . basename($_FILES["document"]["name"]);
-// $uploadOk2 = 1;
-
 $target_file2= $target_dir2 . basename($_FILES["document"]["name"]);
 
 if (move_uploaded_file($_FILES["document"]["tmp_name"], $target_file2)) {
@@ -232,6 +263,8 @@ status,rolenumber,userid,role,logo,document,website,phonenumber,accounttype)VALU
 '$email','$password','$status','$rolenumber','$uid','$role','$target_file','$target_file2','$website','$phonenumber','$accounttype')");
 $insert_keyfields=$dbh->query("INSERT INTO keyfields(rolenumber, password, pswdexpiry, 
     status, username)VALUEs('$rolenumber','$password','$psd','$status','$email')");
+
+    
 
 $insert_company=$dbh->query("INSERT INTO scrap(item,type,item2,item3,item4,item5,item6,item7)
 values('$tradename','$item2','$phonenumber','$address','$target_file','$category','$website','$email')");
@@ -379,7 +412,7 @@ if($insert_users){
                             <input type="text" class="form-control" name="website" placeholder="Your Website">
                         </div>
                          <div class="form-group mb-3">
-                             <label>Attach Company Support Documents<span class="must">*</span></label>
+                             <label>Attach Trading License or Operating License or Both<span class="must">*</span></label>
                             <input type="file" required  class="form-control" name="document" id="document" placeholder="Tel no.">
                         </div>
                         <div class="form-group mb-3">
@@ -396,7 +429,7 @@ if($insert_users){
                             
 
                           <div class="form-group mb-3">
-                          <input  type="checkbox"> &nbsp;&nbsp;<a href="toc" class="primary[">I agree to the Terms And Conditions </a><br><br>
+                          <input required type="checkbox"> &nbsp;&nbsp;<a href="toc" class="primary[">I agree to the Terms And Conditions </a><br><br>
                              <input type="submit" name="register" class="btn btn-primary">     
                          </div> 
                          </div>

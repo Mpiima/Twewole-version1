@@ -245,12 +245,12 @@ if($insert_keyfields){
                                 <div class="col-lg-6">
                             <div class="form-group mb-3">
                                 <label>First Name&nbsp;<span style="color:red;">*</span></label>
-                                <input type="text" required="true" class="form-control" name="fname" placeholder="Enter First name">
+                                <input required type="text" required="true" class="form-control" name="fname" placeholder="Enter First name">
                             </div>
                            
                             <div class="form-group mb-3">
                                  <label>Email&nbsp;<span style="color:red;">*</span></label>
-                                <input type="text" required="true" class="form-control" name="email" placeholder="Enter Your Email">
+                                <input required type="text" required="true" class="form-control" name="email" placeholder="Enter Your Email">
                             </div>
                             
                             <div class="form-group mb-3">
@@ -265,15 +265,15 @@ if($insert_keyfields){
                          <div class="col-lg-6">
                               <div class="form-group mb-3">
                                  <label>Last Name&nbsp;<span style="color:red;">*</span></label>
-                                <input type="text" required="true" class="form-control" name="lname" placeholder="Enter Last name">
+                                <input required type="text" required="true" class="form-control" name="lname" placeholder="Enter Last name">
                             </div>
                         
                         <div class="form-group mb-3">
                              <label>Contact No.&nbsp;<span style="color:red;">*</span></label>
-                            <input  type="number" required="true" class="form-control" name="contact" placeholder="Tel no.">
+                            <input required type="number" required="true" class="form-control" name="contact" placeholder="Tel no.">
                         </div>
                           <div class="form-group mb-3">
-                               <input  type="checkbox"> &nbsp;&nbsp;<a href="toc">I agree to the Terms And Conditions.</a><br><br>
+                               <input required  type="checkbox"> &nbsp;&nbsp;<a href="toc">I agree to the Terms And Conditions.</a><br><br>
                             <input type="submit" class="btn btn-primary" name="register" value="Register" >
                         </div>
                          </div>

@@ -94,7 +94,7 @@
                         $insert_m = $dbh->query("INSERT INTO messaged(sent_to,productid,mes,status,addedby,client)
                         value('$row_products->institution','".$_GET['id']."','$message',1,'$row_products->addedby','$user_number')");
                         if($insert_m){
-                            echo "<p style='color:orange'>Application successful! We shall contact you as soon as Possible! </p>";
+                            echo "<p style='color:orange'>Message sent! </p>";
 
                             //send Notification via Email
                             try {

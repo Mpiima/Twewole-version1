@@ -10,7 +10,7 @@ $row_state=$result_state->fetchObject();
  if($count_state == 0){ ?>
   <script>
   function status_checker(names, act){
-  var confirmer=confirm("BUY SUBSCRIPTION PACKAGE TO COMPLETE YOUR ACCOUNT");
+  var confirmer=confirm("Enjoy your 30-day trial as you showcase your products and services.  We’ll remind you when you have a few days left in your trial. Press Ok to continue.");
   if(confirmer==false){
     // return false;
     location.href = '../../login';
