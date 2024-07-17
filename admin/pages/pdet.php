@@ -109,7 +109,7 @@
                         <input type='hidden' name='did' value='<?php echo $row_pd->autoid; ?>'>
                         <button type='submit' name='delete' class='' style="border:0px;" >
                         <i style='color:red' class='fa fa-trash'></i></button>
-                      <a href="pdet.php?id=<?php echo $row_pd->productid; ?>&&type=<?php echo $_GET['type'] ?>&&act=<?php echo 'delete'; ?>&&autoid=<?php echo $row_pd->autoid; ?>"><i style='color:blue' class='fa fa-edit'></i></a></td>
+                      <a href="pdet?id=<?php echo $row_pd->productid; ?>&&type=<?php echo $_GET['type'] ?>&&act=<?php echo 'delete'; ?>&&autoid=<?php echo $row_pd->autoid; ?>"><i style='color:blue' class='fa fa-edit'></i></a></td>
                       </form>
                  <?php echo "</tr>";
                       }while($row_pd=$result_pd->fetchObject());
