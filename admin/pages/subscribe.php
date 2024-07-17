@@ -8,6 +8,7 @@ if(!isset($_SESSION['rolenumber'])){
 var allowed=function(){window.location='../../login';}
 setTimeout(allowed,1);
 </script>
+
 <?php
 }
 ?> 
@@ -35,11 +36,18 @@ setTimeout(allowed,1);
       color:orange;
       font-weight:bold;
     }
+
+  
+ .btn-outline-warning {
+    color: #e83e8c !important;
+    border-color: #e83e8c !important;
+}
+
    
   </style>
 </head>
-<body class="hold-transition sidebar-mini">
-<div class="">
+<body class="hold-transition sidebar-mini" >
+<div style="background-color:#e0aa3e3b !important">
   <!-- Navbar -->
   <nav class="main-header navbar navbar-expand navbar-white navbar-light" style=" margin-left: 0px !important;">
     <!-- Left navbar links -->
@@ -82,9 +90,9 @@ setTimeout(allowed,1);
       <div class="container-fluid">
         <div class="row">
           <div class="col-12">
-            <div class="card">
-              <div class="card-header">
-                <h3 class="card-title">SUBSCRIPTION PACKAGES</h3>
+            <div class="car">
+              <div class="card-headr">
+                <!-- <h3 class="card-title">SUBSCRIPTION PACKAGES</h3> -->
                 <?php 
                 if(isset($_POST['submit_monthly'])){
                   $amount=$_POST['amount'];
@@ -292,7 +300,7 @@ setTimeout(allowed,1);
                    
                     <div class="col-lg-12 mt-1">
                       <h4>Free Trial</h4>
-                      <p>This Free package is for a period of 1 months from the time of subscription. </p>
+                      <p>This Free package is for a period of 1 month from the time of subscription. </p>
                       <hr>
                      
                       </div>

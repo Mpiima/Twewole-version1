@@ -416,22 +416,31 @@ echo "
 </a>
 <div class='navbar-search-block'>
   <!-- navbar search -->
-<form class='form-inline'>
-<div class='input-group input-group-sm'>
-<input class='form-control form-control-navbar' type='search' placeholder='Search for everything' aria-label='Search'>
-<div class='input-group-append'>
-<button class='btn btn-navbar' type='submit'>
-<i class='fas fa-search'></i>
-</button>
-<button class='btn btn-navbar' type='button' data-widget='navbar-search'>
-<i class='fas fa-times'></i>
-</button>
-</div>
-</div>
-</form>
+// <form class='form-inline'>
+// <div class='input-group input-group-sm'>
+// <input class='form-control form-control-navbar' type='search' placeholder='Search for everything' aria-label='Search'>
+// <div class='input-group-append'>
+// <button class='btn btn-navbar' type='submit'>
+// <i class='fas fa-search'></i>
+// </button>
+// <button class='btn btn-navbar' type='button' data-widget='navbar-search'>
+// <i class='fas fa-times'></i>
+// </button>
+// </div>
+// </div>
+// </form>
 <!-- navbar search ends -->
 </div>
 </li>
+<li class='nav-item mr-3'>
+";?>
+
+<form method='POST' onsubmit="return delete_checker('Your Account','Deleted Permanently. This Action can not be reversed!');">
+<input type='hidden' name='rolenumber' value=".$_SESSION['rolenumber'].">
+<button class='btn btn-block btn-outline-danger' name='deleteAccount'>DELETE ACCOUNT</button>
+</form>
+
+<?php echo "</li>
 <li class='nav-item'>
 <a href='../../index'  target='_blank' class='btn btn-block btn-outline-success'>VISIT SITE</a>
 </li>
@@ -695,4 +704,23 @@ print "<option value=".$row_scrap->item.">".$row_scrap->item2."</option>";
 echo "</select>";
 }else{echo "<p>There are no warehouse, please add some.</p>";}
 }
+
+if(isset($_POST['deleteAccount'])){
+  $update_users=$dbh->query("UPDATE users set account_status=3 WHERE rolenumber='".$_SESSION['rolenumber']."'");
+  $update_key=$dbh->query("UPDATE keyfields set status=3 WHERE rolenumber='".$_SESSION['rolenumber']."'");
+  if($update_key){ 
+    // echo "<div class='alert alert-success'>Account Deleted </div>";
+    echo "<script>
+    window.alert('Account Deleted Successfully');
+    setTimeout(function(){window.location.href = 'logout'; }, 0);</script>";
+  }else{
+    echo "<div class='alert alert-danger'>failed</div>";
+  }
+}
 ?>
+
+<script>
+function delete_checker(names, act){
+var confirmer=confirm(names+" Will  Be "+act+" Click Ok; To Delete ");
+if(confirmer==false){return false;} }
+</script>

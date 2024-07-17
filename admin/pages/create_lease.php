@@ -245,7 +245,7 @@ if(isset($_POST['updateData'])) {
 //delete
     if(isset($_POST['delete'])){
       $autoid=$_POST['autoid'];
-     $delete_products=$dbh->query("UPDATE products SET status=0 WHERE auto_id=$autoid");
+     $_products=$dbh->query("UPDATE products SET status=0 WHERE auto_id=$autoid");
     if($delete_products){
      echo "<div class='alert alert-success'>Deleted Succcessfully</div>";
      ?><script>
@@ -402,7 +402,7 @@ if(isset($_POST['updateData'])) {
                    ?>
                       </td>
                       <td>
-                        <a href="pdet?id=<?php echo $row_products->loan_id; ?>&&type=<?php echo "feature"; ?>" style="font-size:12px;"><i class="fa fa-plus"></i>&nbsp;add features </a>
+                        <a href="pdet?id=<?php echo $row_products->loan_id; ?>&&type=<?php echo "feature"; ?>" style="font-size:12px;"><i class="fa fa-plus"></i>&nbsp;add requirements </a>
                       <?php 
                 $result_p=$dbh->query("SELECT * FROM p_details where productid='".$row_products->loan_id."' 
                 and feature !='' ");       

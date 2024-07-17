@@ -26,14 +26,59 @@
                 <a class="btn btn-primary" data-toggle="modal" data-target="#modal-lg" style="float: right; font-size: 13px;border-radius: 6px; border-color:blue;color: whitesmoke;;font-weight: bold;"><i class="fa fa-plus"></i>&nbsp;&nbsp;create</a>
               </div>
             <?php
+            error_reporting(1);
             if(isset($_POST['savecat'])){
                $category=$_POST['category'];
                $type="grants";
-                $insert_scrap=$dbh->query("INSERT INTO scrap(item,item2)values('$category','$type')");
+             
+                // Upload file
+      $target_dir = "uploads/logos/";
+      $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
+      $uploadOk = 1;
+      $imageFileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
+      
+      // Check if image file is a actual image or fake image
+      $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
+      if($check !== false) {
+          echo "File is an image - " . $check["mime"] . ".";
+          $uploadOk = 1;
+      } else {
+          echo "File is not an image.";
+          $uploadOk = 0;
+      }
+      
+      // Check file size
+      if ($_FILES["fileToUpload"]["size"] > 500000) {
+          echo "Sorry, your file is too large.";
+          $uploadOk = 0;
+      }
+      
+      // Allow certain file formats
+      if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
+      && $imageFileType != "gif" ) {
+          echo "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
+          $uploadOk = 0;
+      }
+      
+      // Check if $uploadOk is set to 0 by an error
+      if ($uploadOk == 0) {
+          echo "Sorry, your file was not uploaded.";
+      } else {
+          // if everything is ok, try to upload file
+          if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
+              echo "The file ". htmlspecialchars( basename( $_FILES["fileToUpload"]["name"])). " has been uploaded.";
+          } else {
+              echo "Sorry, there was an error uploading your file.";
+          }
+      }
+
+      $up="main/pages/".$target_file;
+      $insert_scrap=$dbh->query("INSERT INTO scrap(item,item2,item4)values('$category','$type','$up')");
+
                 if($insert_scrap){
                     echo "<div class='alert alert-success'>Added successfully</div>";
                     ?><script>
-                    var allowed=function(){window.location='grants_category.php';}
+                    var allowed=function(){window.location='grants_category';}
                     setTimeout(allowed,1000);
                     </script>
                     <?php
@@ -43,6 +88,22 @@
                 }
 
             } 
+
+           //delete
+    if(isset($_POST['delete'])){
+      $autoid = $_POST['autoid'];
+     $delete_s=$dbh->query("DELETE FROM scrap WHERE autoid = $autoid");
+    if($delete_s){
+     echo "<div class='alert alert-success'>Deleted Succcessfully</div>";
+     ?><script>
+       var allowed=function(){window.location='grants_category';}
+       setTimeout(allowed,1000);
+       </script>
+       <?php
+    }else{
+     echo "<div class='alert alert-danger'>Deleting falied</div>";
+    }
+    }
             ?>
 
              <div class="modal fade" id="modal-lg">
@@ -55,14 +116,22 @@
               </button>
             </div>
             
-            <form method="POST">
+            <form method="POST" enctype="multipart/form-data">
             <div class="modal-body">
             <div class="row">
                     <div class="col-sm-12">
                       <!-- text input -->
                       <div class="form-group">
-                        <label>Category Name</label>
+                        <label>Category</label>
                         <input required type="text" class="form-control txtform" name="category" >
+                      </div>
+
+                      <div class="form-group">
+                      <label>Category Image</label>
+                    <div class="card-body">
+                    <input required type="file" name="fileToUpload" id="fileToUpload">
+                    </div>
+
                       </div>
                     </div>
                     </div>
@@ -102,10 +171,14 @@
                         echo "
                     <tr>
                     <td>".$n++."</td>
-                    <td>".$row_scrap->item."</td>
-                    <td><i class='fa fa-edit'></i> | <i class='fa fa-trash'></i></td>
-                </tr>
-                ";
+                    <td>".$row_scrap->item."</td>"; ?>
+                     <td> <form method='post' onsubmit="return delete_checker('Data','Deleted');">
+                   
+                        <input type='hidden' name='autoid' value='<?php echo $row_scrap->autoid; ?>' >
+                        <button type='submit' name='delete' class='' style="border:0px;" >
+                        <i style='color:red' class='fa fa-trash'></i></button>
+                      </form></td>
+                <?php echo "</tr>";
                         }while($row_scrap=$result_scrap->fetchObject());
                     }
                     ?>
@@ -117,7 +190,11 @@
             <!-- /.card -->
           </div>
 
-
+          <script>
+function delete_checker(names, act){
+var confirmer=confirm(names+" Will  Be "+act+" Click Ok; To Confirm ");
+if(confirmer==false){return false;} }
+</script>
 
 </div>
 

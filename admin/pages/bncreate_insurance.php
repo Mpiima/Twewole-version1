@@ -372,7 +372,7 @@ if(isset($_POST['delete'])){
                    ?>
                       </td>
                       <td>
-                        <a href="pdet?id=<?php echo $row_products->loan_id; ?>&&type=<?php echo "feature"; ?>" style="font-size:12px;"><i class="fa fa-plus"></i>&nbsp;add features </a>
+                        <a href="pdet?id=<?php echo $row_products->loan_id; ?>&&type=<?php echo "feature"; ?>" style="font-size:12px;"><i class="fa fa-plus"></i>&nbsp;add requirements </a>
                       <?php 
                 $result_p=$dbh->query("SELECT * FROM p_details where productid='".$row_products->loan_id."' 
                 and feature !='' ");       
