@@ -147,11 +147,11 @@
                 
                 ?>
               <form method="POST">
-              <input type="text" class="form-control" placeholder="title goes here" name="title" value="<?php echo $title; ?>">
+              <input required type="text" class="form-control" placeholder="title goes here" name="title" value="<?php echo $title; ?>">
               <input type="hidden" class="form-control" value="<?php echo $_GET['id']; ?>"  name="id">
               <input type="hidden" class="form-control" value="<?php echo $_GET['autoid']; ?>"  name="autoid">
               <label>Short Details</label>
-              <textarea class="form-control" name="description" ><?php echo $desc; ?></textarea>
+              <textarea required class="form-control" name="description" ><?php echo $desc; ?></textarea>
               <br>
               <button type="submit" class="btn btn-success" name="<?php echo $save; ?>" ><?php echo $save; ?></button>
               </form>

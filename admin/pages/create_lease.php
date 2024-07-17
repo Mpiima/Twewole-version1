@@ -400,7 +400,7 @@ if(isset($_POST['updateData'])) {
                       <?php 
                     }while($row_p=$result_p->fetchObject()); }
                    ?>
-                      </td>
+                       </td>
                       <td>
                         <a href="pdet?id=<?php echo $row_products->loan_id; ?>&&type=<?php echo "feature"; ?>" style="font-size:12px;"><i class="fa fa-plus"></i>&nbsp;add requirements </a>
                       <?php 

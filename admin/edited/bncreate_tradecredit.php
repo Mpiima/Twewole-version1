@@ -389,7 +389,7 @@ if(isset($_POST['updateData'])){
                      <form method='post' onsubmit="return delete_checker('Data','Deleted');">
             <a data-toggle='modal' data-target='#edit<?php echo $row_products->auto_id; ?>'>
           <i  style='color:blue' class='fa fa-edit'></i></a>
-                     &nbsp;|&nbsp;<i style='color:orange' class='fa fa-eye'></i>
+                     &nbsp;|&nbsp<a target="_blank" href="../../pdetails?id=<?php echo $row_products->loan_id; ?>"><i style='color:orange' class='fa fa-eye'></i> view</a>
                         <input type='hidden' name='autoid' value='<?php echo $row_products->auto_id; ?>'>
                         <button type='submit' name='delete' class='' style="border:0px;" >
                         <i style='color:red' class='fa fa-trash'></i></button>
