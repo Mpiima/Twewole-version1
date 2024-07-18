@@ -81,6 +81,7 @@
                         $email=$_POST['email'];
                         $contact=$_POST['contact'];
                         $user_number=$_SESSION['rolenumber'];
+                        $provider=$_POST['companyId'];
 
                         $result_users=$dbh->query("SELECT * FROM users WHERE rolenumber='".$_SESSION['rolenumber']."'");
                         $count_users=$result_users->rowCount();
@@ -91,8 +92,8 @@
                         $ad = $message."<br><hr> <h4>Service Provider </h4>Name : ".$row_company->item."<br>Email: ".$row_company->item7."<br>Contact: ".$row_company->item2."<br>Product :".$row_products->title."<br><br>"
                         ."<br><hr> <h4>Customer Details</h4>Name : ". $row_users->firstname."<br>Email: ". $row_users->email."<br>Contact: ". $row_users->phonenumber."<br>Product :".$row_products->title."<br><br>"."<a href='login'>Click here to visit your Account</a>";
 
-                        $insert_m = $dbh->query("INSERT INTO messaged(sent_to,productid,mes,status,addedby,client)
-                        value('$row_products->institution','".$_GET['id']."','$message',1,'$row_products->addedby','$user_number')");
+                        $insert_m = $dbh->query("INSERT INTO messaged(sent_to,productid,mes,status,addedby,client,provider)
+                        value('$row_products->institution','".$_GET['id']."','$message',1,'$row_products->addedby','$user_number','$provider')");
                         if($insert_m){
                             echo "<p style='color:orange'>Message sent! </p>";
 
@@ -209,37 +210,12 @@
                  <span class="step"></span> <span class="step"></span> </div>
                          <div class="">
                             <div class="row">
-                                <!-- <div class="col-lg-6">
-                            <div class="form-group mb-3">
-                                <label>Firstname</label>
-                                <input type="text" required="true" 
-                                class="form-control" name="fname" placeholder="Enter Firstname">
-                            </div></div> -->
-                        <!-- <div class="col-lg-6">
-                            <div class="form-group mb-3">
-                                 <label>Lastname</label>
-                                <input type="text" required="true" class="form-control" name="lastname" placeholder="Enter Your Last Name">
-                            </div>   
-                         </div></div> -->
-                  <div class="row">
-                    <!-- <div class="col-lg-6">
-                        <div class="form-group mb-3">
-                             <label>Email</label>
-                            <input  type="email" required="true" class="form-control" name="email" placeholder="Your Email">
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="form-group mb-6">
-                             <label>Contact.</label>
-                            <input  type="text" required="true" class="form-control" name="contact" placeholder="Tel no.">
-                        </div>
-                    </div> -->
-                    </div>
 
                     <div class="row">
                     <div class="col-lg-12">
                         <div class="form-group mb-4 mt-2">
                              <label>Message</label>
+                             <input type="text" value="<?php echo $row_company->autoid; ?>" name="companyId">
                         <select class="form-select p-0 mt-3" name="message" required>
                             <option value="">-select-</option>
                          <option value="How do I apply?">How do I apply ?
