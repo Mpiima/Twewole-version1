@@ -72,7 +72,7 @@
                     $result_company=$dbh->query("SELECT * FROM scrap WHERE autoid= $row_products->institution");
                     $row_company=$result_company->fetchObject();
 
-                    error_reporting(1);
+                    error_reporting(0);
                      if(isset($_POST['sendmessage'])){
                         $fname=$_POST['fname'];
                         $lname=$_POST['lastname'];

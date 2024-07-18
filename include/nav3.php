@@ -89,6 +89,13 @@ if(!isset($_SESSION['username']) ){
                             <?php  if($_SESSION['role'] == "CL"){}else{; ?>
                             <li><a href="main/pages/dashboard"><i class="ti-profile"></i><span>Dashboard</span></a></li><?php } ?>
                             <li><a href="#"><i class="ti-users"></i><span><b>Hi,</b> <?php echo $_SESSION['username']; ?></span></a></li>
+
+                            <li>
+                            <form method='POST' onsubmit="return delete_checker('Your Account','Deleted Permanently. This Action can not be reversed!');">
+<input type='hidden' name='rolenumber' value="<?php echo $_SESSION['rolenumber']; ?>">
+<button class='btn btn-block btn-outline-danger' name='deleteAccount'>DELETE ACCOUNT</button>
+</form>
+                            </li>
                             <li><a href="logout"><i class="ti-user"></i><span>Logout</span></a></li>
                         </ul>
                     </div>
@@ -100,5 +107,26 @@ if(!isset($_SESSION['username']) ){
         </div>
     </div>
 
+    <?php 
+    
+    if(isset($_POST['deleteAccount'])){
+        $update_users=$dbh->query("UPDATE users set account_status=3 WHERE rolenumber='".$_SESSION['rolenumber']."'");
+        $update_key=$dbh->query("UPDATE keyfields set status=3 WHERE rolenumber='".$_SESSION['rolenumber']."'");
+        if($update_key){ 
+          // echo "<div class='alert alert-success'>Account Deleted </div>";
+          echo "<script>
+          window.alert('Account Deleted Successfully');
+          setTimeout(function(){window.location.href = 'logout'; }, 0);</script>";
+        }else{
+          echo "<div class='alert alert-danger'>failed</div>";
+        }
+      }
+      ?>
+
+<script>
+function delete_checker(names, act){
+var confirmer=confirm(names+" Will  Be "+act+" Click Ok; To Delete ");
+if(confirmer==false){return false;} }
+</script>
 </header>
 <!-- END HEADER -->
