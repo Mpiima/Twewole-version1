@@ -44,7 +44,7 @@ if(!isset($_SESSION['username']) ){
    <div class="top-header fixed-top  main_menu_uppercase" style="background-color:white !important;">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="d-flex align-items-center justify-content-center justify-content-md-start">
                         <div class="lng_dropdown me-2">
                      
@@ -69,7 +69,7 @@ if(!isset($_SESSION['username']) ){
 			</form>
 
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-5">
                 <?php 
                 if(!isset($_SESSION['username']) && $_SESSION['role'] != "CL" ){ ?>
                 
@@ -93,7 +93,7 @@ if(!isset($_SESSION['username']) ){
                             <li>
                             <form method='POST' onsubmit="return delete_checker('Your Account','Deleted Permanently. This Action can not be reversed!');">
 <input type='hidden' name='rolenumber' value="<?php echo $_SESSION['rolenumber']; ?>">
-<button class='btn btn-block btn-outline-danger' name='deleteAccount'>DELETE ACCOUNT</button>
+<button class='btn btn-block btn-outline-danger p-1' name='deleteAccount'>DELETE ACCOUNT</button>
 </form>
                             </li>
                             <li><a href="logout"><i class="ti-user"></i><span>Logout</span></a></li>
