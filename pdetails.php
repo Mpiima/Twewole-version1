@@ -215,7 +215,7 @@
                     <div class="col-lg-12">
                         <div class="form-group mb-4 mt-2">
                              <label>Message</label>
-                             <input type="text" value="<?php echo $row_company->autoid; ?>" name="companyId">
+                             <input type="hidden" value="<?php echo $row_company->autoid; ?>" name="companyId">
                         <select class="form-select p-0 mt-3" name="message" required>
                             <option value="">-select-</option>
                          <option value="How do I apply?">How do I apply ?
