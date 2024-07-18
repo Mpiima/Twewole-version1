@@ -825,8 +825,27 @@ data-textcolor="#ff8800" data-digitscolor="#ff5500">Kampala, Uganda</a>
                              <div class="card">
                               <img class="card-img" src="<?php echo $img; ?>" alt="No image" width="300px;" style="height:150px;">                     
                                 <div class="card-img-overlay">
-                                  <a href="activity-details?id=<?php echo $row_a->autoid; ?>" class="btn btn-light btn-sm">
-                                  Date: <?php echo $row_a->scheduledon; ?></a>
+                                  <a href="#" class="btn btn-light btn-sm">
+                                  Date: <?php
+                                  //  echo $row_a->scheduledon; 
+                                   $orgDate = $row_a->scheduledon;   
+                                   $date = str_replace('-"', '/', $orgDate);  
+                                   $newDate = date("d/m/Y", strtotime($date));  
+                                   echo $newDate;  
+                                  
+                                  ?><br>
+                                  Time:  <?php 
+                                  // echo $row_a->timeed; 
+                                  // $dateTime = DateTime::createFromFormat('H:i', $row_a->timeed);
+                                  // echo $time12 = $dateTime->format('h:i A');
+
+                                  $time24 = $row_a->timeed; 
+
+                                  $dateTime = DateTime::createFromFormat('H:i:s', $time24);
+                                  $time12 = $dateTime->format('h:i:s A');
+
+                                  echo $time12; // Output: 08:34:00 PM
+                                  ?></a>
                                 </div>
                                 <div class="card-body">
                                 <a href="#"><h4 class="card-title"><?php echo $row_a->title; ?></h4></a>
