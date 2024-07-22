@@ -86,7 +86,7 @@
                                         <ul> 
                                             <!-- <li class="dropdown-header"></li> -->
                                             <?php
-                                            $result_scrap=$dbh->query("SELECT * FROM scrap WHERE item2='tradeunit' ORDER BY autoid asc Limit 8");
+                                            $result_scrap=$dbh->query("SELECT * FROM scrap WHERE item2='tradeunit' ORDER BY autoid asc Limit 10");
                                             $count_scrap=$result_scrap->rowCount();
                                             $row_scrap=$result_scrap->fetchObject();
                                             if($count_scrap>0){
@@ -104,7 +104,7 @@
                                         <ul>
                                             <!-- <li class="dropdown-header">Leasing</li> -->
                                             <?php
-                                            $result_scrap=$dbh->query("SELECT * FROM scrap WHERE item2='tradeunit' ORDER BY autoid asc Limit 8 offset 8");
+                                            $result_scrap=$dbh->query("SELECT * FROM scrap WHERE item2='tradeunit' ORDER BY autoid asc Limit 10 offset 10");
                                             $count_scrap=$result_scrap->rowCount();
                                             $row_scrap=$result_scrap->fetchObject();
                                             if($count_scrap>0){
@@ -122,7 +122,7 @@
                                         <ul>
                                             <!-- <li class="dropdown-header">Grants</li> -->
                                             <?php
-                                            $result_scrap=$dbh->query("SELECT * FROM scrap WHERE item2='tradeunit' ORDER BY autoid asc Limit 8 offset 16");
+                                            $result_scrap=$dbh->query("SELECT * FROM scrap WHERE item2='tradeunit' ORDER BY autoid asc Limit 10 offset 20");
                                             $count_scrap=$result_scrap->rowCount();
                                             $row_scrap=$result_scrap->fetchObject();
                                             if($count_scrap>0){
@@ -140,7 +140,7 @@
                                         <ul>
                                             <!-- <li class="dropdown-header">Trade Credit</li> -->
                                             <?php
-                                            $result_scrap=$dbh->query("SELECT * FROM scrap WHERE item2='tradeunit' ORDER BY autoid asc Limit 8 offset 24");
+                                            $result_scrap=$dbh->query("SELECT * FROM scrap WHERE item2='tradeunit' ORDER BY autoid asc Limit 10 offset 30");
                                             $count_scrap=$result_scrap->rowCount();
                                             $row_scrap=$result_scrap->fetchObject();
                                             if($count_scrap>0){
