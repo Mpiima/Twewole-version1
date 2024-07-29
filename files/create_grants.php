@@ -294,7 +294,7 @@ if(isset($_POST['updateData'])){
                       </div>
                     </div>
                     <div class="col-sm-8">
-                    <label>Flyer/Banner/Thumbnail/Advert</label>
+                    <label>Promotion Image</label>
                     <div class="card-body">
                     <input required type="file" name="fileToUpload" id="fileToUpload">
                     </div>
@@ -470,7 +470,7 @@ if(isset($_POST['updateData'])){
                       </div>
                     </div>
                     <div class="col-sm-8">
-                    <label>Flyer/Banner/Thumbnail/Advert</label>
+                    <label>Promotion Image</label>
                     <div class="card-body">
                     <input  type="file" name="fileToUpload" id="fileToUpload">
                     </div>
