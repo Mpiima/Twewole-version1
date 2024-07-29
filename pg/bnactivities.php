@@ -115,7 +115,7 @@
                   $location = $_POST['location'];
                   $details = $_POST['details'];
                   $time = $_POST['time'];
-                  $target_dir = "uploads/adv/";
+                  $target_dir = "uploads/activity/";
                   $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
                   $uploadOk = 1;
                   $imageFileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
@@ -167,7 +167,7 @@
                   $location = $_POST['location'];
                   $details = $_POST['details'];
                   $time = $_POST['time'];
-                  $target_dir = "uploads/adv/";
+                  $target_dir = "uploads/activity/";
                   $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
                   $uploadOk = 1;
                   $imageFileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
@@ -272,7 +272,7 @@
                       <!-- text input -->
                       <div class="form-group">
                         <label>Title</label>
-                        <input type="text" value="<?php echo $row_a->autoid; ?>" name="autoid" >
+                        <input type="hidden" value="<?php echo $row_a->autoid; ?>" name="autoid" >
                         <input type="text" class="form-control txtform" name="title" value='<?php echo $row_a->title; ?>'>
                       </div>
                     </div>

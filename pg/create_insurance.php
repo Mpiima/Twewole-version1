@@ -222,7 +222,7 @@ if(isset($_POST['updateData'])){
         } else {
             echo "<div class='alert alert-danger'>Update failed</div>";
         }
-    }
+    } 
 }
 
 // Delete insurance product
@@ -258,15 +258,15 @@ if(isset($_POST['delete'])){
                       <!-- text input -->
                       <div class="form-group">
                         <label>insurance Name</label>
-                        <input type="text" class="form-control txtform" name="title" >
+                        <input required type="text" class="form-control txtform" name="title" >
                       </div>
                     </div>
                     <div class="col-sm-4">
                      <!-- text input -->
                      <div class="form-group">
                         <label>Nature Of the insurance</label>
-                        <select class="form-control" name="nature" required>
-                            <option>-select-</option>
+                        <select required class="form-control" name="nature" required>
+                            <option value="">-select-</option>
                             <?php
                     $result_scrap=$dbh->query("SELECT * FROM scrap where item2='insurance'");
                     $count_scrap=$result_scrap->rowCount();
@@ -285,7 +285,7 @@ if(isset($_POST['delete'])){
                     <div class="col-sm-4">
                     <div class="form-group">
                         <label>Amount Range/Details</label>
-                        <input type="text" class="form-control txtform" name="amount">
+                        <input required type="text" class="form-control txtform" name="amount">
                       </div></div>
                   </div>
                 <div class="row">
@@ -308,7 +308,7 @@ if(isset($_POST['delete'])){
                     <div class="col-lg-12">
                     <label>Short Description</label>
                     <div class="card-body">
-                        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" name="summary">
+                        <textarea required class="form-control rounded-0" id="exampleFormControlTextarea2" name="summary">
                        </textarea> 
                     </div>
                     </div>
@@ -431,14 +431,14 @@ if(isset($_POST['delete'])){
                       <div class="form-group">
                         <label>insurance Name</label>
                         <input type="hidden" name="autoid" value="<?php echo $row_products->auto_id; ?>">
-                        <input type="text" class="form-control txtform" name="title" value="<?php echo $row_products->title;  ?>" >
+                        <input required type="text" class="form-control txtform" name="title" value="<?php echo $row_products->title;  ?>" >
                       </div>
                     </div>
                     <div class="col-sm-4">
                      <!-- text input -->
                      <div class="form-group">
                         <label>Nature Of the insurance</label>
-                        <select class="form-control" name="nature" required>
+                        <select required class="form-control" name="nature" required>
                     <?php
                     $result_scrap1=$dbh->query("SELECT * FROM scrap where item2='insurance' AND autoid='$row_products->nature'");
                     $row_scrap1=$result_scrap1->fetchObject();
@@ -462,7 +462,7 @@ if(isset($_POST['delete'])){
                     <div class="col-sm-4">
                     <div class="form-group">
                         <label>Amount Range/Details</label>
-                        <input type="text" class="form-control txtform" name="amount" value="<?php echo $row_products->amount_range;  ?>">
+                        <input required type="text" class="form-control txtform" name="amount" value="<?php echo $row_products->amount_range;  ?>">
                       </div></div>
                   </div>
                 <div class="row">
@@ -484,7 +484,7 @@ if(isset($_POST['delete'])){
                     <div class="col-lg-12">
                     <label>Short Description</label>
                     <div class="card-body">
-                        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" name="summary" ><?php echo $row_products->summary;  ?>
+                        <textarea required class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" name="summary" ><?php echo $row_products->summary;  ?>
                        </textarea> 
                     </div>
                     </div>

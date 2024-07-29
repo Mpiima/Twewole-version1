@@ -142,13 +142,17 @@
                         // if everything is ok, try to upload file
                         } else {
                         if (move_uploaded_file($_FILES["logo"]["tmp_name"], $target_file)) {
-                        echo "The file ". htmlspecialchars( basename( $_FILES["logo"]["name"])). " has been uploaded.";
+                        "The file ". htmlspecialchars( basename( $_FILES["logo"]["name"])). " has been uploaded.";
                         $update_logo=$dbh->query("UPDATE users set logo='$target_file' WHERE rolenumber='".$_SESSION['rolenumber']."'");
                      //meta refresh=======================================
-                     
-
+                     if($update_logo){
+                   
+                        // echo "<div class='alert alert-success'>Edited Successfully</div>";
+                        echo "<script>setTimeout(function(){ window.location.href = 'edit_profile'; }, 1000);</script>";
+                      
+                     }
                       } else {
-                        echo "Sorry, there was an error uploading your file.";
+                         "Sorry, there was an error uploading your file.";
                         }
                         }
                       }
@@ -158,6 +162,7 @@
                         <div class="form-group mb-3">
                           <div class="row">
                             <div class="col-lg-6">
+                            <!-- <?php echo $row_users->logo; ?> -->
                             <img src="<?php echo $row_users->logo; ?>" alt="No Image" width="100%" >
                             </div>
                             <div class="col-lg-4">

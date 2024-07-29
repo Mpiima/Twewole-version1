@@ -152,7 +152,7 @@
                         $result_users=$dbh->query("SELECT * FROM users WHERE autoid=$row_m->sent_to");
                         $row_users=$result_users->fetchObject();
 
-                        $result_client=$dbh->query("SELECT * FROM users WHERE rolenumber='CL310'");
+                        $result_client=$dbh->query("SELECT * FROM users WHERE rolenumber='$row_m->client'");
                         $row_client=$result_client->fetchObject();
 
                         $result_p=$dbh->query("SELECT * FROM products WHERE loan_id='$row_m->productid'");

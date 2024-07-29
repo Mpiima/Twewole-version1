@@ -155,7 +155,7 @@ if(!isset($_SESSION['role'])){
               </div>
               <!-- /.card-header -->
               <div class="card-body table-responsive p-5">
-                <table id="example1" class="table table-head-fixed text-nowrap">
+                <table id="example1" class="table table-head-fixed text-nowrap table-striped">
                   <thead>
                     <tr>
                       <th>Service Provider</th>
@@ -168,7 +168,7 @@ if(!isset($_SESSION['role'])){
                   </thead>
                   <tbody>
                     <?php 
-                                        error_reporting(1);
+                    error_reporting(0);
                     if(isset($_POST['delete'])){
                       $autoid=$_POST['autoid'];
                       $del=$dbh->query("UPDATE messaged set status=0 where autoid='$autoid'");
@@ -190,11 +190,14 @@ if(!isset($_SESSION['role'])){
                         $result_p=$dbh->query("SELECT * FROM products WHERE loan_id='$row_m->productid'");
                         $row_product=$result_p->fetchObject();
 
+                        $result_company=$dbh->query("SELECT * FROM scrap WHERE autoid= $row_m->provider");
+                        $row_company=$result_company->fetchObject();
+                         
                         ?>
                     <tr>
-                      <td><?php echo $row_users->tradename  ?><br>
-                        Email : <a href="mailto:<?php echo $row_users->email;  ?>"><?php echo $row_users->email;  ?></a><br>
-                        Contact: <a href="tel:<?php echo $row_users->phonenumber;  ?>"><?php echo $row_users->phonenumber;  ?></a> 
+                      <td><?php echo $row_company->item;  ?><br>
+                        Email : <a href="mailto:<?php echo $row_company->item7;  ?>"><?php echo  $row_company->item7;  ?></a><br>
+                        Contact: <a href="tel:<?php echo $row_company->item2;  ?>"><?php echo $row_company->item2;  ?></a> 
                         
                       </td>
                       <td><?php echo $row_product->title;  ?></td>

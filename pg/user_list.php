@@ -24,6 +24,34 @@
                 <!-- <a class="btn btn-primary" data-toggle="modal" data-target="#modal-lg" href="" style="float: right; font-size: 13px;border-radius: 6px; border-color:blue;color: whitesmoke;;font-weight: bold;"><i class="fa fa-plus"></i>&nbsp;&nbsp;create</a> -->
               </div>
 
+              <?php 
+    
+    if(isset($_POST['deactivate'])){
+       $rolen = $_POST['rolen'];
+        $update_users=$dbh->query("UPDATE users set status=4 WHERE rolenumber='$rolen'");
+        $update_key=$dbh->query("UPDATE keyfields set status=4 WHERE rolenumber='$rolen'");
+        if($update_key){ 
+          echo "<div class='alert alert-success'>Account Deactivated </div>";
+          echo "<script>
+          setTimeout(function(){window.location.href = 'user_list'; }, 2000);</script>";
+        }else{
+          echo "<div class='alert alert-danger'>failed</div>";
+        }
+      } 
+
+      if(isset($_POST['activate'])){
+        $rolen = $_POST['rolen'];
+          $update_users=$dbh->query("UPDATE users set status=1 WHERE rolenumber='$rolen'");
+          $update_key=$dbh->query("UPDATE keyfields set status=1 WHERE rolenumber='$rolen'");
+          if($update_key){ 
+            echo "<div class='alert alert-success'>Account Activated </div>";
+            echo "<script>
+            setTimeout(function(){window.location.href = 'user_list'; }, 2000);</script>";
+          }else{
+            echo "<div class='alert alert-danger'>failed</div>";
+          }
+        } 
+      ?>
 
               <div class="modal fade" id="modal-lg">
         <div class="modal-dialog modal-lg">
@@ -138,12 +166,13 @@
                     <th>Email</th>
                     <th>Phone</th>
                     <th>Type</th>
-                    <th>status</th>                   
+                    <th>status</th>            
+                    <th>Action</th>       
                   </tr>
                   </thead>
                   <tbody>
                 <?php 
-                  $result_users=$dbh->query("SELECT * FROM users");
+                  $result_users=$dbh->query("SELECT * FROM users WHERE role != 'sp'");
                   $count_users=$result_users->rowCount();
                   $row_users=$result_users->fetchObject();
                   $n=1;
@@ -151,22 +180,31 @@
                     do{
                       if($row_users->status == 1){
                         $status="ACTIVE";
-                        $color="light-blue";
-                      }else{
-                        $status="INACTIVE";
+                        $color="green";
+                        $display="none";
+                        $display2="true";
+                      }else if($row_users->status == 4){
+                        $status="DEACTIVATED";
                         $color="red";
+                        $display="none";
+                        $display2="true";
+                      }
+                      else{
+                        $status="INACTIVE";
+                        $color="orange";
+                        $display="none";
+                        $display2="true";
                       }
 
-                      if($row_users->role == "BN2"){
-                        $type="Business";
-                       
-                      } else if($row_users->role == "CL"){
+                       if($row_users->role == "CL"){
                         $type="User";
                       
                       }
-                      else{
+                      else if ($row_users->role == "sp"){
                         $type="Admin";
                        
+                      }else {
+                        $type="Business";
                       }
                  echo "
                 <tr>
@@ -175,8 +213,22 @@
                     <td>".$row_users->email."</td>
                      <td>".$row_users->phonenumber."</td>
                       <td><a href='#?id=".$row_users->rolenumber."'>".$type."</a></td>
-                      <td><a  style='color:".$color."'>".$status."</a></td>
-                </tr>
+                      <td><a  style='color:".$color."'>".$status."</a></td>"; ?>
+
+                      <td>
+                      <?php if($status == "ACTIVE"){ ?>
+                        <form method='POST' onsubmit="return delete_checker('This Account','Deactivated Temporarily !');">
+                        <input type='hidden' name='rolen' value="<?php echo $row_users->rolenumber; ?>">
+                        <button class='btn btn-block btn-outline-danger p-1' name='deactivate' >Deactivate</button>
+                        </form>
+                        <?php }else {?>
+                        <form method='POST' onsubmit="return delete_checker('This Account','Activated !');">
+                        <input type='hidden' name='rolen' value="<?php echo $row_users->rolenumber; ?>">
+                        <button class='btn btn-block btn-outline-success p-1' name='activate' >Activate</button>
+                          <?php } ?>
+                        </form>
+                      </td>
+                <?php echo"</tr>
                 ";
 
                }while($row_users=$result_users->fetchObject()); } ?>
@@ -204,24 +256,10 @@
 
 
 <script>
-  $(function () {
-    $("#example1").DataTable({
-      "responsive": true, "lengthChange": false, "autoWidth": false,
-      "buttons": ["copy", "csv", "excel", "pdf", "print"]
-    }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
-    $('#example2').DataTable({
-      "paging": true,
-      "lengthChange": false,
-      "searching": false,
-      "ordering": true,
-      "info": true,
-      "autoWidth": false,
-      "responsive": true,
-    });
-  });
-</script>
-
-
+function delete_checker(names, act){
+var confirmer=confirm(names+" Will  Be "+act+" Click Ok; To Confirm ");
+if(confirmer==false){return false;} }
+</script> 
 
 <?php lscripts(); ?>
 </body>

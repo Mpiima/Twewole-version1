@@ -1,17 +1,3 @@
-<?php include("zini_genesis.php"); ?>
-<!DOCTYPE html>
-<html lang='en'>
-<head>
-  <?php kheader(); ?>
-</head>
-<body class='hold-transition <?php echo $mymode; ?> sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed'>
-
-<?php kleftbar(); ?>
-<?php 
-if(!isset($_SESSION['role'])){
-//redirect to login
-}else if($_SESSION['role'] == "sp"){
-?>
 <section class='content'>
 <div class='container-fluid'>
 <!-- Info boxes -->
@@ -23,7 +9,7 @@ if(!isset($_SESSION['role'])){
               <div class="card-header">
                 <h3 class="card-title">
                  <span style="font-size: 18px; font-weight: bold;">Asset Leasing</span>
-                  <span style="font-size: 13px;">Asset Leasing List</span><span style="font-size: 15px;">&nbsp;| &nbsp;</span> 
+                  <span style="font-size: 13px;">Asset Leasing list</span><span style="font-size: 15px;">&nbsp;| &nbsp;</span> 
 
                 </h3>
                 <a class="btn btn-primary" data-toggle="modal" data-target="#modal-lg"
@@ -245,11 +231,11 @@ if(isset($_POST['updateData'])) {
 //delete
     if(isset($_POST['delete'])){
       $autoid=$_POST['autoid'];
-     $_products=$dbh->query("UPDATE products SET status=0 WHERE auto_id=$autoid");
+     $delete_products=$dbh->query("UPDATE products SET status=0 WHERE auto_id=$autoid");
     if($delete_products){
      echo "<div class='alert alert-success'>Deleted Succcessfully</div>";
      ?><script>
-       var allowed=function(){window.location='create_lease';}
+       var allowed=function(){window.location='create_loan';}
        setTimeout(allowed,1000);
        </script>
        <?php
@@ -277,15 +263,15 @@ if(isset($_POST['updateData'])) {
                       <!-- text input -->
                       <div class="form-group">
                         <label>Title</label>
-                        <input type="text" class="form-control txtform" name="title" >
+                        <input required type="text" class="form-control txtform" name="title" >
                       </div>
                     </div>
                     <div class="col-sm-4">
                      <!-- text input -->
                      <div class="form-group">
                         <label>Nature Of the Lease</label>
-                        <select class="form-control" name="nature" required>
-                            <option>-select-</option>
+                        <select required class="form-control" name="nature" required>
+                            <option value="">-select-</option>
                             <?php
                     $result_scrap=$dbh->query("SELECT * FROM scrap where item2='lease'");
                     $count_scrap=$result_scrap->rowCount();
@@ -304,7 +290,7 @@ if(isset($_POST['updateData'])) {
                     <div class="col-sm-4">
                     <div class="form-group">
                         <label>Amount Range/Details</label>
-                        <input type="text" class="form-control txtform" name="amount">
+                        <input required type="text" class="form-control txtform" name="amount">
                       </div></div>
                   </div>
                 <div class="row">
@@ -327,7 +313,7 @@ if(isset($_POST['updateData'])) {
                     <div class="col-lg-12">
                     <label>Short Description</label>
                     <div class="card-body">
-                        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" name="summary">
+                        <textarea required class="form-control rounded-0" id="exampleFormControlTextarea2" name="summary">
                        </textarea> 
                     </div>
                     </div>
@@ -361,12 +347,13 @@ if(isset($_POST['updateData'])) {
                     <th>Amount</th>
                     <th>Lease Benefits</th>
                     <th>Lease Requirements</th>
+                    <th>Promotion Image</th>
                     <th>Action</th>
                   </tr>
                   </thead>
                   <tbody>
                     <?php 
-                    $result_products=$dbh->query("SELECT * FROM products where status=1 AND type='lease' ORDER BY auto_id desc ");
+                    $result_products=$dbh->query("SELECT * FROM products where status=1 AND type='lease' AND addedby='".$_SESSION['rolenumber']."' ORDER BY auto_id desc ");
                     $count_products=$result_products->rowCount();
                     $row_products=$result_products->fetchObject();
                     if($count_products>0){
@@ -400,7 +387,7 @@ if(isset($_POST['updateData'])) {
                       <?php 
                     }while($row_p=$result_p->fetchObject()); }
                    ?>
-                       </td>
+                      </td>
                       <td>
                         <a href="pdet?id=<?php echo $row_products->loan_id; ?>&&type=<?php echo "feature"; ?>" style="font-size:12px;"><i class="fa fa-plus"></i>&nbsp;add requirements </a>
                       <?php 
@@ -416,6 +403,9 @@ if(isset($_POST['updateData'])) {
                     }while($row_p=$result_p->fetchObject()); }
                    ?>
                       </td>
+                      <td width="20%"><a href='<?php echo $row_products->advert; ?>' target='_blank'>
+                      <img src="<?php echo $row_products->advert; ?> " width="20%" alt="No Image">
+                    </a></td>
                       <td>
                      <form method='post' onsubmit="return delete_checker('Data','Deleted');">
             <a data-toggle='modal' data-target='#edit<?php echo $row_products->auto_id; ?>'>
@@ -541,10 +531,3 @@ function delete_checker(names, act){
 var confirmer=confirm(names+" Will  Be "+act+" Click Ok; To Confirm ");
 if(confirmer==false){return false;} }
 </script>
-
-<?php }else{
-include 'bncreate_lease.php';
-} ?>
-<?php lscripts(); ?>
-</body>
-</html>

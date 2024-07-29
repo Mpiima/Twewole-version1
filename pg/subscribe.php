@@ -255,7 +255,7 @@ setTimeout(allowed,1);
                   }
                     $status=1;
 
-                    $accounttype=7;
+                    $accounttype=0;
                   //insert subscription
                   $insert_subc = $dbh->query("INSERT INTO subscriptions (noofdays,expired_date,account,period,rolenumber)
                   values(30,'$expireddate','$accounttype','trial','$rolenumber')");

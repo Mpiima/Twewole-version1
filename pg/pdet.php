@@ -21,7 +21,15 @@
               <div class="card-header">
                 <h3 class="card-title">
                  <span style="font-size: 18px; font-weight: bold;"></span>
-                  <span style="font-size: 13px;"></span><span style="font-size: 15px;">&nbsp;<?php echo $_GET['type']; ?>| &nbsp;</span> 
+                  <span style="font-size: 13px;"></span><span style="font-size: 15px;">&nbsp;
+                <?php 
+                  if($_GET['type'] == "feature"){
+                    echo "Requirements";
+                  }else{
+                    echo $_GET['type'];
+                  }
+                  
+                  ?>| &nbsp;  </span> 
                 </h3> 
               </div>
               <!-- /.card-header -->
@@ -144,7 +152,6 @@
                 $desc="";
                 $save="savedata";
               }
-                
                 ?>
               <form method="POST">
               <input required type="text" class="form-control" placeholder="title goes here" name="title" value="<?php echo $title; ?>">
@@ -155,9 +162,6 @@
               <br>
               <button type="submit" class="btn btn-success" name="<?php echo $save; ?>" ><?php echo $save; ?></button>
               </form>
-
-
-
             </div>
             </div>
            
