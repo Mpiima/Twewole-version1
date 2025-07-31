@@ -2,7 +2,7 @@
 <!-- Meta -->
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta content="Twewole" name="Money Credit">
+<meta content="Twewole" name="Twewole">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Welcome to TWEWOLE, Our network is designed to connect Individuals and Small businesses  to  Loans, Trade credit, Asset leasing, and Grants. We also  provide access to professional experts, insurance,  business partners, and tools that guide them towards financial success. 
 It's important to note that we are not registered as a broker or dealer and do not provide Investment or Insurance advice. We do not provide funding nor make any recommendations or suggestions to a Financier to participate in any transaction or deal. Our platform does not involve the purchase, sale, negotiation, execution, possession, or compensation of securities in any way. Our Focus is solely on helping you connect and coordinate credit Information and Activities in a safe and fair manner. ">
