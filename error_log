@@ -1,0 +1,173 @@
+[08-Jul-2024 10:58:44 UTC] PHP Warning:  include(dashboard/pages/connect.php): Failed to open stream: No such file or directory in /home/twewole/public_html/include/header.php on line 143
+[08-Jul-2024 10:58:44 UTC] PHP Warning:  include(): Failed opening 'dashboard/pages/connect.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/twewole/public_html/include/header.php on line 143
+[08-Jul-2024 10:58:44 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/twewole/public_html/include/nav.php on line 2
+[08-Jul-2024 10:58:44 UTC] PHP Warning:  include(dashboard/pages/connect.php): Failed to open stream: No such file or directory in /home/twewole/public_html/include/nav.php on line 4
+[08-Jul-2024 10:58:44 UTC] PHP Warning:  include(): Failed opening 'dashboard/pages/connect.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/twewole/public_html/include/nav.php on line 4
+[08-Jul-2024 10:58:44 UTC] PHP Warning:  Undefined array key "role" in /home/twewole/public_html/include/nav.php on line 30
+[08-Jul-2024 10:58:44 UTC] PHP Warning:  Undefined variable $dbh in /home/twewole/public_html/include/nav.php on line 79
+[08-Jul-2024 10:58:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/twewole/public_html/include/nav.php:79
+Stack trace:
+#0 /home/twewole/public_html/index.php(119): include()
+#1 {main}
+  thrown in /home/twewole/public_html/include/nav.php on line 79
+[29-Jul-2024 13:01:57 UTC] PHP Warning:  include(dashboard/pages/connect.php): Failed to open stream: No such file or directory in /home/twewole/public_html/include/header.php on line 143
+[29-Jul-2024 13:01:57 UTC] PHP Warning:  include(): Failed opening 'dashboard/pages/connect.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/twewole/public_html/include/header.php on line 143
+[29-Jul-2024 13:01:57 UTC] PHP Warning:  include(dashboard/pages/connect.php): Failed to open stream: No such file or directory in /home/twewole/public_html/products.php on line 4
+[29-Jul-2024 13:01:57 UTC] PHP Warning:  include(): Failed opening 'dashboard/pages/connect.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/twewole/public_html/products.php on line 4
+[29-Jul-2024 13:01:57 UTC] PHP Warning:  Undefined array key "role" in /home/twewole/public_html/include/nav2.php on line 19
+[29-Jul-2024 13:01:57 UTC] PHP Warning:  Undefined variable $dbh in /home/twewole/public_html/include/nav2.php on line 65
+[29-Jul-2024 13:01:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/twewole/public_html/include/nav2.php:65
+Stack trace:
+#0 /home/twewole/public_html/products.php(19): include()
+#1 {main}
+  thrown in /home/twewole/public_html/include/nav2.php on line 65
+[27-Aug-2024 07:40:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Organization','nsumperese7@gmail.com',
+'nsumperese7@gmail.com','$unshinE2123',' at line 2 in /home/twewole/public_html/business.php:261
+Stack trace:
+#0 /home/twewole/public_html/business.php(261): PDO->query()
+#1 {main}
+  thrown in /home/twewole/public_html/business.php on line 261
+[27-Aug-2024 07:41:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Organization','nsumperese7@gmail.com',
+'nsumperese7@gmail.com','$unshinE2123',' at line 2 in /home/twewole/public_html/business.php:261
+Stack trace:
+#0 /home/twewole/public_html/business.php(261): PDO->query()
+#1 {main}
+  thrown in /home/twewole/public_html/business.php on line 261
+[27-Aug-2024 07:43:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Organization','nsumperese7@gmail.com',
+'nsumperese7@gmail.com','$unshinE2123',' at line 2 in /home/twewole/public_html/business.php:261
+Stack trace:
+#0 /home/twewole/public_html/business.php(261): PDO->query()
+#1 {main}
+  thrown in /home/twewole/public_html/business.php on line 261
+[27-Aug-2024 07:44:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Organization','nsumperese8@gmail.com',
+'nsumperese8@gmail.com','$unshinE2123',' at line 2 in /home/twewole/public_html/business.php:261
+Stack trace:
+#0 /home/twewole/public_html/business.php(261): PDO->query()
+#1 {main}
+  thrown in /home/twewole/public_html/business.php on line 261
+[27-Aug-2024 08:30:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Organization','nsumperese15@gmail.com',
+'nsumperese15@gmail.com','$unshinE2123' at line 2 in /home/twewole/public_html/business.php:261
+Stack trace:
+#0 /home/twewole/public_html/business.php(261): PDO->query()
+#1 {main}
+  thrown in /home/twewole/public_html/business.php on line 261
+[29-Aug-2024 15:52:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Organization','nsumperese15@gmail.com',
+'nsumperese15@gmail.com','$unshinE2123' at line 2 in /home/twewole/public_html/business.php:261
+Stack trace:
+#0 /home/twewole/public_html/business.php(261): PDO->query()
+#1 {main}
+  thrown in /home/twewole/public_html/business.php on line 261
+[02-Jan-2025 07:55:25 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/twewole/public_html/my-account.php:233
+Stack trace:
+#0 /home/twewole/public_html/my-account.php(233): getimagesize()
+#1 {main}
+  thrown in /home/twewole/public_html/my-account.php on line 233
+[02-Jan-2025 08:03:52 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/twewole/public_html/my-account.php:233
+Stack trace:
+#0 /home/twewole/public_html/my-account.php(233): getimagesize()
+#1 {main}
+  thrown in /home/twewole/public_html/my-account.php on line 233
+[15-May-2025 11:57:18 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/twewole/public_html/my-account.php:233
+Stack trace:
+#0 /home/twewole/public_html/my-account.php(233): getimagesize()
+#1 {main}
+  thrown in /home/twewole/public_html/my-account.php on line 233
+[06-Jun-2025 06:01:10 UTC] PHP Warning:  include(dashboard/pages/connect.php): Failed to open stream: No such file or directory in /home/twewole/public_html/include/header.php on line 143
+[06-Jun-2025 06:01:10 UTC] PHP Warning:  include(): Failed opening 'dashboard/pages/connect.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/twewole/public_html/include/header.php on line 143
+[06-Jun-2025 06:01:10 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/twewole/public_html/include/nav.php on line 2
+[06-Jun-2025 06:01:10 UTC] PHP Warning:  include(dashboard/pages/connect.php): Failed to open stream: No such file or directory in /home/twewole/public_html/include/nav.php on line 4
+[06-Jun-2025 06:01:10 UTC] PHP Warning:  include(): Failed opening 'dashboard/pages/connect.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/twewole/public_html/include/nav.php on line 4
+[06-Jun-2025 06:01:10 UTC] PHP Warning:  Undefined array key "role" in /home/twewole/public_html/include/nav.php on line 30
+[06-Jun-2025 06:01:10 UTC] PHP Warning:  Undefined variable $dbh in /home/twewole/public_html/include/nav.php on line 79
+[06-Jun-2025 06:01:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/twewole/public_html/include/nav.php:79
+Stack trace:
+#0 /home/twewole/public_html/index.php(120): include()
+#1 {main}
+  thrown in /home/twewole/public_html/include/nav.php on line 79
+[06-Jun-2025 06:01:34 UTC] PHP Warning:  include(dashboard/pages/connect.php): Failed to open stream: No such file or directory in /home/twewole/public_html/include/header.php on line 143
+[06-Jun-2025 06:01:34 UTC] PHP Warning:  include(): Failed opening 'dashboard/pages/connect.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/twewole/public_html/include/header.php on line 143
+[06-Jun-2025 06:01:34 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/twewole/public_html/include/nav.php on line 2
+[06-Jun-2025 06:01:34 UTC] PHP Warning:  include(dashboard/pages/connect.php): Failed to open stream: No such file or directory in /home/twewole/public_html/include/nav.php on line 4
+[06-Jun-2025 06:01:34 UTC] PHP Warning:  include(): Failed opening 'dashboard/pages/connect.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/twewole/public_html/include/nav.php on line 4
+[06-Jun-2025 06:01:34 UTC] PHP Warning:  Undefined array key "role" in /home/twewole/public_html/include/nav.php on line 30
+[06-Jun-2025 06:01:34 UTC] PHP Warning:  Undefined variable $dbh in /home/twewole/public_html/include/nav.php on line 79
+[06-Jun-2025 06:01:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/twewole/public_html/include/nav.php:79
+Stack trace:
+#0 /home/twewole/public_html/index.php(120): include()
+#1 {main}
+  thrown in /home/twewole/public_html/include/nav.php on line 79
+[06-Jun-2025 06:05:27 UTC] PHP Warning:  include(dashboard/pages/connect.php): Failed to open stream: No such file or directory in /home/twewole/public_html/include/header.php on line 143
+[06-Jun-2025 06:05:27 UTC] PHP Warning:  include(): Failed opening 'dashboard/pages/connect.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/twewole/public_html/include/header.php on line 143
+[06-Jun-2025 06:05:27 UTC] PHP Warning:  include(dashboard/pages/connect.php): Failed to open stream: No such file or directory in /home/twewole/public_html/products.php on line 4
+[06-Jun-2025 06:05:27 UTC] PHP Warning:  include(): Failed opening 'dashboard/pages/connect.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/twewole/public_html/products.php on line 4
+[06-Jun-2025 06:05:27 UTC] PHP Warning:  Undefined array key "role" in /home/twewole/public_html/include/nav2.php on line 19
+[06-Jun-2025 06:05:27 UTC] PHP Warning:  Undefined variable $dbh in /home/twewole/public_html/include/nav2.php on line 65
+[06-Jun-2025 06:05:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/twewole/public_html/include/nav2.php:65
+Stack trace:
+#0 /home/twewole/public_html/products.php(19): include()
+#1 {main}
+  thrown in /home/twewole/public_html/include/nav2.php on line 65
+[06-Jun-2025 06:10:06 UTC] PHP Warning:  include(dashboard/pages/connect.php): Failed to open stream: No such file or directory in /home/twewole/public_html/include/header.php on line 143
+[06-Jun-2025 06:10:06 UTC] PHP Warning:  include(): Failed opening 'dashboard/pages/connect.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/twewole/public_html/include/header.php on line 143
+[06-Jun-2025 06:10:06 UTC] PHP Warning:  include(dashboard/pages/connect.php): Failed to open stream: No such file or directory in /home/twewole/public_html/products.php on line 4
+[06-Jun-2025 06:10:06 UTC] PHP Warning:  include(): Failed opening 'dashboard/pages/connect.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/twewole/public_html/products.php on line 4
+[06-Jun-2025 06:10:06 UTC] PHP Warning:  Undefined array key "role" in /home/twewole/public_html/include/nav2.php on line 19
+[06-Jun-2025 06:10:06 UTC] PHP Warning:  Undefined variable $dbh in /home/twewole/public_html/include/nav2.php on line 65
+[06-Jun-2025 06:10:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/twewole/public_html/include/nav2.php:65
+Stack trace:
+#0 /home/twewole/public_html/products.php(19): include()
+#1 {main}
+  thrown in /home/twewole/public_html/include/nav2.php on line 65
+[06-Jun-2025 06:10:08 UTC] PHP Warning:  include(dashboard/pages/connect.php): Failed to open stream: No such file or directory in /home/twewole/public_html/include/header.php on line 143
+[06-Jun-2025 06:10:08 UTC] PHP Warning:  include(): Failed opening 'dashboard/pages/connect.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/twewole/public_html/include/header.php on line 143
+[06-Jun-2025 06:10:08 UTC] PHP Warning:  include(dashboard/pages/connect.php): Failed to open stream: No such file or directory in /home/twewole/public_html/products.php on line 4
+[06-Jun-2025 06:10:08 UTC] PHP Warning:  include(): Failed opening 'dashboard/pages/connect.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/twewole/public_html/products.php on line 4
+[06-Jun-2025 06:10:08 UTC] PHP Warning:  Undefined array key "role" in /home/twewole/public_html/include/nav2.php on line 19
+[06-Jun-2025 06:10:08 UTC] PHP Warning:  Undefined variable $dbh in /home/twewole/public_html/include/nav2.php on line 65
+[06-Jun-2025 06:10:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/twewole/public_html/include/nav2.php:65
+Stack trace:
+#0 /home/twewole/public_html/products.php(19): include()
+#1 {main}
+  thrown in /home/twewole/public_html/include/nav2.php on line 65
+[06-Jun-2025 06:14:38 UTC] PHP Warning:  include(dashboard/pages/connect.php): Failed to open stream: No such file or directory in /home/twewole/public_html/include/header.php on line 143
+[06-Jun-2025 06:14:38 UTC] PHP Warning:  include(): Failed opening 'dashboard/pages/connect.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/twewole/public_html/include/header.php on line 143
+[06-Jun-2025 06:14:38 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/twewole/public_html/include/nav.php on line 2
+[06-Jun-2025 06:14:38 UTC] PHP Warning:  include(dashboard/pages/connect.php): Failed to open stream: No such file or directory in /home/twewole/public_html/include/nav.php on line 4
+[06-Jun-2025 06:14:38 UTC] PHP Warning:  include(): Failed opening 'dashboard/pages/connect.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/twewole/public_html/include/nav.php on line 4
+[06-Jun-2025 06:14:38 UTC] PHP Warning:  Undefined array key "role" in /home/twewole/public_html/include/nav.php on line 30
+[06-Jun-2025 06:14:38 UTC] PHP Warning:  Undefined variable $dbh in /home/twewole/public_html/include/nav.php on line 79
+[06-Jun-2025 06:14:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/twewole/public_html/includ[22-Jun-2025 16:19:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''415''' at line 1 in /home/twewole/public_html/products.php:37
+Stack trace:
+#0 /home/twewole/public_html/products.php(37): PDO->query()
+#1 {main}
+  thrown in /home/twewole/public_html/products.php on line 37
+[17-Jul-2025 14:12:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/twewole/public_html/include/nav2.php:65
+Stack trace:
+#0 /home/twewole/public_html/products.php(21): include()
+#1 {main}
+  thrown in /home/twewole/public_html/include/nav2.php on line 65
+[17-Jul-2025 15:48:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/twewole/public_html/include/nav2.php:65
+Stack trace:
+#0 /home/twewole/public_html/products.php(21): include()
+#1 {main}
+  thrown in /home/twewole/public_html/include/nav2.php on line 65
+[18-Jul-2025 10:32:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/twewole/public_html/include/nav2.php:65
+Stack trace:
+#0 /home/twewole/public_html/products.php(21): include()
+#1 {main}
+  thrown in /home/twewole/public_html/include/nav2.php on line 65
+[18-Jul-2025 18:00:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/twewole/public_html/include/nav2.php:65
+Stack trace:
+#0 /home/twewole/public_html/products.php(21): include()
+#1 {main}
+  thrown in /home/twewole/public_html/include/nav2.php on line 65
+[19-Jul-2025 04:41:59 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''413''' at line 1 in /home/twewole/public_html/products.php:37
+Stack trace:
+#0 /home/twewole/public_html/products.php(37): PDO->query()
+#1 {main}
+  thrown in /home/twewole/public_html/products.php on line 37
+[22-Jul-2025 19:29:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''349''' at line 1 in /home/twewole/public_html/products.php:37
+Stack trace:
+#0 /home/twewole/public_html/products.php(37): PDO->query()
+#1 {main}
+  thrown in /home/twewole/public_html/products.php on line 37

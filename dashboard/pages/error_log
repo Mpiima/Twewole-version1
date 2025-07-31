@@ -1,0 +1,932 @@
+[30-Jul-2022 23:26:20 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:26:20 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:26:20 Africa/Kampala] PHP Notice:  Undefined variable: dbh in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 217
+[30-Jul-2022 23:26:20 Africa/Kampala] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php:217
+Stack trace:
+#0 /home/zinigfje/public_html/Apps/uips/pages/index.php(9): kleftbar()
+#1 {main}
+  thrown in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 217
+[30-Jul-2022 23:26:29 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:26:29 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:26:29 Africa/Kampala] PHP Notice:  Undefined variable: dbh in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 217
+[30-Jul-2022 23:26:29 Africa/Kampala] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php:217
+Stack trace:
+#0 /home/zinigfje/public_html/Apps/uips/pages/index.php(9): kleftbar()
+#1 {main}
+  thrown in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 217
+[30-Jul-2022 23:27:52 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:27:52 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:27:52 Africa/Kampala] PHP Notice:  Undefined variable: dbh in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 217
+[30-Jul-2022 23:27:52 Africa/Kampala] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php:217
+Stack trace:
+#0 /home/zinigfje/public_html/Apps/uips/pages/index.php(9): kleftbar()
+#1 {main}
+  thrown in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 217
+[30-Jul-2022 23:28:15 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:28:15 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:29:00 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:29:00 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:30:22 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:30:22 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:30:44 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:30:44 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:31:21 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:31:21 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:32:13 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:32:13 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:32:47 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:32:47 Africa/Kampala] PHP Notice:  Undefined index: db_name in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 13
+[30-Jul-2022 23:32:47 Africa/Kampala] PHP Notice:  Undefined index: rolenumber in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 9
+[30-Jul-2022 23:32:47 Africa/Kampala] PHP Notice:  Undefined index: role in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 10
+[30-Jul-2022 23:32:47 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:32:47 Africa/Kampala] PHP Notice:  Undefined index: db_name in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 13
+[30-Jul-2022 23:32:47 Africa/Kampala] PHP Notice:  Undefined index: role in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 215
+[30-Jul-2022 23:32:47 Africa/Kampala] PHP Notice:  Undefined index: rolenumber in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 216
+[30-Jul-2022 23:32:47 Africa/Kampala] PHP Fatal error:  Uncaught Error: Call to a member function fetchObject() on bool in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php:218
+Stack trace:
+#0 /home/zinigfje/public_html/Apps/uips/pages/index.php(9): kleftbar()
+#1 {main}
+  thrown in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 218
+[30-Jul-2022 23:32:49 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:32:49 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:33:37 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:33:37 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:34:47 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:34:47 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:35:08 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:35:08 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:35:51 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:35:51 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:36:08 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:36:08 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:36:30 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:36:30 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:36:45 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:36:45 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:37:36 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:37:36 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:37:55 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:37:55 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:38:15 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:38:15 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:38:46 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:38:46 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:39:43 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[30-Jul-2022 23:39:43 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[31-Jul-2022 01:16:37 America/New_York] PHP Notice:  Undefined index: db_name in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 13
+[31-Jul-2022 08:17:23 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[31-Jul-2022 08:17:23 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[31-Jul-2022 08:18:41 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[31-Jul-2022 08:18:41 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[31-Jul-2022 08:31:16 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[31-Jul-2022 08:31:16 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[31-Jul-2022 08:32:44 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[31-Jul-2022 08:32:44 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[31-Jul-2022 08:33:15 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[31-Jul-2022 08:33:15 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[31-Jul-2022 08:33:50 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[31-Jul-2022 08:33:50 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[31-Jul-2022 08:35:32 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[31-Jul-2022 08:35:32 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[31-Jul-2022 14:23:38 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[31-Jul-2022 14:23:38 Africa/Kampala] PHP Notice:  Undefined index: db_name in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 13
+[31-Jul-2022 14:23:38 Africa/Kampala] PHP Notice:  Undefined index: rolenumber in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 9
+[31-Jul-2022 14:23:38 Africa/Kampala] PHP Notice:  Undefined index: role in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 10
+[31-Jul-2022 14:23:38 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[31-Jul-2022 14:23:38 Africa/Kampala] PHP Notice:  Undefined index: db_name in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 13
+[31-Jul-2022 14:23:38 Africa/Kampala] PHP Notice:  Undefined index: role in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 215
+[31-Jul-2022 14:23:38 Africa/Kampala] PHP Notice:  Undefined index: rolenumber in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 216
+[31-Jul-2022 14:23:38 Africa/Kampala] PHP Fatal error:  Uncaught Error: Call to a member function fetchObject() on bool in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php:218
+Stack trace:
+#0 /home/zinigfje/public_html/Apps/uips/pages/index.php(9): kleftbar()
+#1 {main}
+  thrown in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 218
+[04-Aug-2022 23:14:21 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:14:21 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:14:30 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:14:30 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:14:30 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:14:30 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:14:35 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:14:35 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 16:15:14 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 16:15:14 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:15:27 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:15:27 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 16:15:51 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 16:15:51 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:16:09 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:16:09 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:16:09 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:16:09 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:16:28 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:16:28 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 16:16:53 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 16:16:53 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 16:16:53 America/New_York] PHP Notice:  Undefined variable: size in /home/zinigfje/public_html/Apps/uips/pages/submit_brand.php on line 26
+[04-Aug-2022 16:16:53 America/New_York] PHP Notice:  Undefined variable: filename in /home/zinigfje/public_html/Apps/uips/pages/submit_brand.php on line 26
+[04-Aug-2022 23:17:00 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:17:00 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 16:17:18 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 16:17:18 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:17:23 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:17:23 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 16:17:35 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 16:17:35 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:17:43 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:17:43 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:17:43 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:17:43 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:21:38 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:21:38 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:21:58 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:21:58 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:21:58 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:21:58 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:22:11 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:22:11 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:23:41 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:23:41 Africa/Kampala] PHP Notice:  Undefined index: db_name in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 13
+[04-Aug-2022 23:23:41 Africa/Kampala] PHP Notice:  Undefined index: rolenumber in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 9
+[04-Aug-2022 23:23:41 Africa/Kampala] PHP Notice:  Undefined index: role in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 10
+[04-Aug-2022 23:23:41 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[04-Aug-2022 23:23:41 Africa/Kampala] PHP Notice:  Undefined index: db_name in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 13
+[04-Aug-2022 23:23:41 Africa/Kampala] PHP Notice:  Undefined index: role in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 222
+[04-Aug-2022 23:23:41 Africa/Kampala] PHP Notice:  Undefined index: rolenumber in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 223
+[04-Aug-2022 23:23:41 Africa/Kampala] PHP Fatal error:  Uncaught Error: Call to a member function fetchObject() on bool in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php:225
+Stack trace:
+#0 /home/zinigfje/public_html/Apps/uips/pages/warehouse.php(42): kleftbar()
+#1 {main}
+  thrown in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 225
+[05-Aug-2022 08:20:05 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[05-Aug-2022 08:20:05 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[05-Aug-2022 08:22:12 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[05-Aug-2022 08:22:12 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[05-Aug-2022 08:22:31 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[05-Aug-2022 08:22:31 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[05-Aug-2022 08:22:52 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[05-Aug-2022 08:22:52 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[05-Aug-2022 08:39:13 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[05-Aug-2022 08:39:13 Africa/Kampala] PHP Notice:  Undefined index: db_name in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 13
+[05-Aug-2022 08:39:13 Africa/Kampala] PHP Notice:  Undefined index: rolenumber in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 9
+[05-Aug-2022 08:39:13 Africa/Kampala] PHP Notice:  Undefined index: role in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 10
+[05-Aug-2022 08:39:13 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[05-Aug-2022 08:39:13 Africa/Kampala] PHP Notice:  Undefined index: db_name in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 13
+[05-Aug-2022 08:39:13 Africa/Kampala] PHP Notice:  Undefined index: role in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 222
+[05-Aug-2022 08:39:13 Africa/Kampala] PHP Notice:  Undefined index: rolenumber in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 223
+[05-Aug-2022 08:39:13 Africa/Kampala] PHP Fatal error:  Uncaught Error: Call to a member function fetchObject() on bool in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php:225
+Stack trace:
+#0 /home/zinigfje/public_html/Apps/uips/pages/index.php(9): kleftbar()
+#1 {main}
+  thrown in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 225
+[05-Aug-2022 08:39:13 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[05-Aug-2022 08:39:13 Africa/Kampala] PHP Notice:  Undefined index: db_name in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 13
+[05-Aug-2022 08:39:13 Africa/Kampala] PHP Notice:  Undefined index: rolenumber in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 9
+[05-Aug-2022 08:39:13 Africa/Kampala] PHP Notice:  Undefined index: role in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 10
+[05-Aug-2022 08:39:13 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[05-Aug-2022 08:39:13 Africa/Kampala] PHP Notice:  Undefined index: db_name in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 13
+[05-Aug-2022 08:39:13 Africa/Kampala] PHP Notice:  Undefined index: role in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 222
+[05-Aug-2022 08:39:13 Africa/Kampala] PHP Notice:  Undefined index: rolenumber in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 223
+[05-Aug-2022 08:39:13 Africa/Kampala] PHP Fatal error:  Uncaught Error: Call to a member function fetchObject() on bool in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php:225
+Stack trace:
+#0 /home/zinigfje/public_html/Apps/uips/pages/index.php(9): kleftbar()
+#1 {main}
+  thrown in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 225
+[05-Aug-2022 08:39:14 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[05-Aug-2022 08:39:14 Africa/Kampala] PHP Notice:  Undefined index: db_name in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 13
+[05-Aug-2022 08:39:14 Africa/Kampala] PHP Notice:  Undefined index: rolenumber in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 9
+[05-Aug-2022 08:39:14 Africa/Kampala] PHP Notice:  Undefined index: role in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 10
+[05-Aug-2022 08:39:14 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[05-Aug-2022 08:39:14 Africa/Kampala] PHP Notice:  Undefined index: db_name in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 13
+[05-Aug-2022 08:39:14 Africa/Kampala] PHP Notice:  Undefined index: role in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 222
+[05-Aug-2022 08:39:14 Africa/Kampala] PHP Notice:  Undefined index: rolenumber in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 223
+[05-Aug-2022 08:39:14 Africa/Kampala] PHP Fatal error:  Uncaught Error: Call to a member function fetchObject() on bool in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php:225
+Stack trace:
+#0 /home/zinigfje/public_html/Apps/uips/pages/index.php(9): kleftbar()
+#1 {main}
+  thrown in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 225
+[05-Aug-2022 08:39:48 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[05-Aug-2022 08:39:48 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[05-Aug-2022 08:41:03 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[05-Aug-2022 08:41:03 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[05-Aug-2022 08:41:03 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[05-Aug-2022 08:41:03 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[05-Aug-2022 01:42:14 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[05-Aug-2022 01:42:14 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[05-Aug-2022 01:42:14 America/New_York] PHP Notice:  Undefined index: default_currency in /home/zinigfje/public_html/Apps/uips/pages/submit_business.php on line 3
+[05-Aug-2022 01:42:14 America/New_York] PHP Notice:  Undefined index: warehouse in /home/zinigfje/public_html/Apps/uips/pages/submit_business.php on line 9
+[09-Aug-2022 08:08:50 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[09-Aug-2022 08:08:50 Africa/Kampala] PHP Notice:  Undefined index: db_name in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 13
+[09-Aug-2022 08:08:50 Africa/Kampala] PHP Notice:  Undefined index: rolenumber in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 9
+[09-Aug-2022 08:08:50 Africa/Kampala] PHP Notice:  Undefined index: role in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 10
+[09-Aug-2022 08:08:50 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[09-Aug-2022 08:08:50 Africa/Kampala] PHP Notice:  Undefined index: db_name in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 13
+[09-Aug-2022 08:08:50 Africa/Kampala] PHP Notice:  Undefined index: role in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 222
+[09-Aug-2022 08:08:50 Africa/Kampala] PHP Notice:  Undefined index: rolenumber in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 223
+[09-Aug-2022 08:08:50 Africa/Kampala] PHP Fatal error:  Uncaught Error: Call to a member function fetchObject() on bool in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php:225
+Stack trace:
+#0 /home/zinigfje/public_html/Apps/uips/pages/index.php(9): kleftbar()
+#1 {main}
+  thrown in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 225
+[09-Aug-2022 08:09:07 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[09-Aug-2022 08:09:07 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:27:44 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:27:44 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:28:24 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:28:25 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:28:32 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:28:32 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:28:40 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:28:40 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:28:43 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:28:43 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:28:45 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:28:45 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:28:47 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:28:47 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:28:49 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:28:49 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:28:52 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:28:52 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:28:54 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:28:54 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:28:57 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:28:57 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:28:59 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:28:59 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:29:01 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:29:01 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:29:04 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:29:04 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:29:08 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:29:09 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:29:13 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:29:13 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:29:16 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[21-Aug-2022 23:29:16 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[21-Aug-2022 23:29:16 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/expense_category.php on line 7
+[21-Aug-2022 23:29:16 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 09:41:45 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 09:41:45 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[22-Aug-2022 09:41:45 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/index.php on line 7
+[22-Aug-2022 09:41:45 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 09:42:00 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 09:42:00 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 09:42:11 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 09:42:11 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[22-Aug-2022 09:42:11 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/index.php on line 7
+[22-Aug-2022 09:42:11 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 09:42:17 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 09:42:17 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[22-Aug-2022 09:42:17 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/inventory.php on line 7
+[22-Aug-2022 09:42:17 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 12:13:15 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 12:13:15 Africa/Kampala] PHP Notice:  Undefined index: db_name in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 13
+[22-Aug-2022 12:13:15 Africa/Kampala] PHP Notice:  Undefined index: rolenumber in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 9
+[22-Aug-2022 12:13:15 Africa/Kampala] PHP Notice:  Undefined index: role in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 10
+[22-Aug-2022 12:13:15 Africa/Kampala] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on bool in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php:22
+Stack trace:
+#0 /home/zinigfje/public_html/Apps/uips/pages/inventory.php(1): include()
+#1 {main}
+  thrown in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 22
+[22-Aug-2022 17:56:02 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:56:02 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[22-Aug-2022 17:56:02 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/index.php on line 7
+[22-Aug-2022 17:56:02 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:56:11 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:56:11 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:56:14 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:56:14 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[22-Aug-2022 17:56:14 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/index.php on line 7
+[22-Aug-2022 17:56:14 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:56:19 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:56:19 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[22-Aug-2022 17:56:19 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/create_expense.php on line 7
+[22-Aug-2022 17:56:19 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:56:41 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:56:41 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[22-Aug-2022 17:56:41 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/create_expense.php on line 7
+[22-Aug-2022 17:56:41 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:56:45 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:56:45 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[22-Aug-2022 17:56:45 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/create_products.php on line 8
+[22-Aug-2022 17:56:45 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:56:51 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:56:51 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[22-Aug-2022 17:56:51 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/create_invoice.php on line 7
+[22-Aug-2022 17:56:51 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:56:55 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:56:55 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[22-Aug-2022 17:56:55 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/create_products.php on line 8
+[22-Aug-2022 17:56:55 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:57:02 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:57:02 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[22-Aug-2022 17:57:02 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/create_products.php on line 8
+[22-Aug-2022 17:57:02 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:57:13 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:57:13 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[22-Aug-2022 17:57:13 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/list_products.php on line 7
+[22-Aug-2022 17:57:13 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:57:18 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:57:18 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[22-Aug-2022 17:57:18 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/inventory.php on line 7
+[22-Aug-2022 17:57:18 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:57:21 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:57:21 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[22-Aug-2022 17:57:21 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/inventory.php on line 7
+[22-Aug-2022 17:57:21 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:57:24 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:57:24 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[22-Aug-2022 17:57:24 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/create_purchase.php on line 7
+[22-Aug-2022 17:57:24 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:57:27 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:57:27 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[22-Aug-2022 17:57:27 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/inventory.php on line 7
+[22-Aug-2022 17:57:27 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:57:35 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:57:35 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[22-Aug-2022 17:57:35 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/inventory.php on line 7
+[22-Aug-2022 17:57:35 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:57:37 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:57:37 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[22-Aug-2022 17:57:37 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/inventory.php on line 7
+[22-Aug-2022 17:57:37 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:57:39 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 17:57:39 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[22-Aug-2022 17:57:39 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/inventory.php on line 7
+[22-Aug-2022 17:57:39 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 18:00:13 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[22-Aug-2022 18:00:13 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[22-Aug-2022 18:00:13 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/inventory.php on line 7
+[22-Aug-2022 18:00:13 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:21:21 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:21:22 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[11-Sep-2022 08:21:22 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/index.php on line 7
+[11-Sep-2022 08:21:22 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:33:10 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:33:10 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[11-Sep-2022 08:33:10 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/create_products.php on line 8
+[11-Sep-2022 08:33:10 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:33:27 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:33:27 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[11-Sep-2022 08:33:27 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/list_products.php on line 7
+[11-Sep-2022 08:33:27 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:33:41 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:33:41 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[11-Sep-2022 08:33:41 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/inventory.php on line 7
+[11-Sep-2022 08:33:41 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:33:49 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:33:49 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[11-Sep-2022 08:33:49 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/create_purchase.php on line 7
+[11-Sep-2022 08:33:49 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:34:01 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:34:01 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[11-Sep-2022 08:34:01 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/inventory.php on line 7
+[11-Sep-2022 08:34:01 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:34:03 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:34:03 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[11-Sep-2022 08:34:03 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/create_adjustment.php on line 7
+[11-Sep-2022 08:34:03 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:34:08 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:34:08 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[11-Sep-2022 08:34:08 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/inventory.php on line 7
+[11-Sep-2022 08:34:08 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:34:10 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:34:10 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[11-Sep-2022 08:34:10 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/stock_transfer.php on line 7
+[11-Sep-2022 08:34:10 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:34:16 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:34:16 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[11-Sep-2022 08:34:16 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/inventory.php on line 7
+[11-Sep-2022 08:34:16 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:34:18 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:34:18 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[11-Sep-2022 08:34:18 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/purchase_return.php on line 7
+[11-Sep-2022 08:34:18 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:34:24 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:34:24 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[11-Sep-2022 08:34:24 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/create_expense.php on line 7
+[11-Sep-2022 08:34:24 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:34:30 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:34:30 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[11-Sep-2022 08:34:30 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/list_expense.php on line 7
+[11-Sep-2022 08:34:30 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:34:37 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:34:37 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[11-Sep-2022 08:34:37 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/expense_category.php on line 7
+[11-Sep-2022 08:34:37 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:34:56 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:34:56 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[11-Sep-2022 08:34:56 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/system_settings.php on line 48
+[11-Sep-2022 08:34:56 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:34:56 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:34:56 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:35:03 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:35:03 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[11-Sep-2022 08:35:03 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/warehouse.php on line 40
+[11-Sep-2022 08:35:03 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:35:11 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:35:11 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[11-Sep-2022 08:35:11 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/category.php on line 38
+[11-Sep-2022 08:35:11 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:35:21 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:35:21 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[11-Sep-2022 08:35:21 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/brand.php on line 48
+[11-Sep-2022 08:35:21 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:35:30 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:35:30 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[11-Sep-2022 08:35:30 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/currency.php on line 39
+[11-Sep-2022 08:35:30 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:35:36 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:35:36 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 25
+[11-Sep-2022 08:35:36 Africa/Kampala] PHP Notice:  Undefined variable: mymode in /home/zinigfje/public_html/Apps/uips/pages/unit.php on line 39
+[11-Sep-2022 08:35:36 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:35:41 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:35:41 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:35:48 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:35:48 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:36:20 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:36:20 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:36:20 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:36:20 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:36:29 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:36:29 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 01:37:32 America/New_York] PHP Notice:  Undefined index: myfile in /home/zinigfje/public_html/Apps/uips/pages/submit_brand.php on line 19
+[11-Sep-2022 08:37:47 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:37:47 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:37:55 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:37:55 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:37:58 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 08:37:58 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 09:23:32 Africa/Kampala] PHP Notice:  session_start(): A session had already been started - ignoring in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 2
+[11-Sep-2022 09:23:32 Africa/Kampala] PHP Notice:  Undefined index: db_name in /home/zinigfje/public_html/Apps/uips/pages/connect.php on line 13
+[11-Sep-2022 09:23:32 Africa/Kampala] PHP Notice:  Undefined index: rolenumber in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 9
+[11-Sep-2022 09:23:32 Africa/Kampala] PHP Notice:  Undefined index: role in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 10
+[11-Sep-2022 09:23:32 Africa/Kampala] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on bool in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php:22
+Stack trace:
+#0 /home/zinigfje/public_html/Apps/uips/pages/create_purchase.php(1): include()
+#1 {main}
+  thrown in /home/zinigfje/public_html/Apps/uips/pages/zini_genesis.php on line 22
+[13-Aug-2024 23:32:39 Africa/Kampala] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE auto_id=' at line 1 in /home/twewole/public_html/dashboard/pages/addresses.php:55
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/addresses.php(55): PDO->query()
+#1 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/addresses.php on line 55
+[13-Aug-2024 23:34:07 Africa/Kampala] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE auto_id=' at line 1 in /home/twewole/public_html/dashboard/pages/addresses.php:55
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/addresses.php(55): PDO->query()
+#1 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/addresses.php on line 55
+[13-Aug-2024 23:34:35 Africa/Kampala] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE auto_id=' at line 1 in /home/twewole/public_html/dashboard/pages/addresses.php:56
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/addresses.php(56): PDO->query()
+#1 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/addresses.php on line 56
+[13-Aug-2024 23:36:53 Africa/Kampala] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/twewole/public_html/dashboard/pages/addresses.php:56
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/addresses.php(56): PDO->query()
+#1 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/addresses.php on line 56
+[13-Aug-2024 23:37:04 Africa/Kampala] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/twewole/public_html/dashboard/pages/addresses.php:56
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/addresses.php(56): PDO->query()
+#1 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/addresses.php on line 56
+[14-Aug-2024 09:27:42 Africa/Kampala] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/twewole/public_html/dashboard/pages/addresses.php:56
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/addresses.php(56): PDO->query()
+#1 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/addresses.php on line 56
+[14-Aug-2024 09:28:05 Africa/Kampala] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/twewole/public_html/dashboard/pages/addresses.php:56
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/addresses.php(56): PDO->query()
+#1 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/addresses.php on line 56
+[14-Aug-2024 13:24:10 Africa/Kampala] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/twewole/public_html/dashboard/pages/addresses.php:56
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/addresses.php(56): PDO->query()
+#1 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/addresses.php on line 56
+[14-Aug-2024 13:24:14 Africa/Kampala] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/twewole/public_html/dashboard/pages/addresses.php:56
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/addresses.php(56): PDO->query()
+#1 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/addresses.php on line 56
+[14-Aug-2024 13:24:42 Africa/Kampala] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/twewole/public_html/dashboard/pages/addresses.php:56
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/addresses.php(56): PDO->query()
+#1 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/addresses.php on line 56
+[14-Aug-2024 20:30:08 Africa/Kampala] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/twewole/public_html/dashboard/pages/addresses.php:56
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/addresses.php(56): PDO->query()
+#1 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/addresses.php on line 56
+[15-Aug-2024 11:23:58 Africa/Kampala] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/twewole/public_html/dashboard/pages/addresses.php:56
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/addresses.php(56): PDO->query()
+#1 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/addresses.php on line 56
+[15-Aug-2024 17:49:28 Africa/Kampala] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/twewole/public_html/dashboard/pages/addresses.php:56
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/addresses.php(56): PDO->query()
+#1 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/addresses.php on line 56
+[29-Aug-2024 16:10:31 UTC] PHP Warning:  session_start(): Class 'Monolog\Level' not found in /home/twewole/public_html/dashboard/pages/renew_subscription.php on line 2
+[29-Aug-2024 16:10:31 UTC] PHP Warning:  session_start(): Failed to decode session object. Session has been destroyed in /home/twewole/public_html/dashboard/pages/renew_subscription.php on line 2
+[06-Jan-2025 12:01:58 UTC] PHP Warning:  session_start(): Class 'Monolog\Level' not found in /home/twewole/public_html/dashboard/pages/subscribe.php on line 2
+[06-Jan-2025 12:01:58 UTC] PHP Warning:  session_start(): Failed to decode session object. Session has been destroyed in /home/twewole/public_html/dashboard/pages/subscribe.php on line 2
+[06-Jan-2025 15:25:31 Africa/Kampala] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/twewole/public_html/dashboard/pages/bncreate_loan.php:67
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/bncreate_loan.php(67): getimagesize()
+#1 /home/twewole/public_html/dashboard/pages/create_loan.php(521): include('/home/twewole/p...')
+#2 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/bncreate_loan.php on line 67
+[06-Jan-2025 15:31:33 Africa/Kampala] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/twewole/public_html/dashboard/pages/bncreate_loan.php:67
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/bncreate_loan.php(67): getimagesize()
+#1 /home/twewole/public_html/dashboard/pages/create_loan.php(521): include('/home/twewole/p...')
+#2 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/bncreate_loan.php on line 67
+[10-Mar-2025 19:20:05 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to):  in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:1100
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1020): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress()
+#1 /home/twewole/public_html/dashboard/pages/notifications.php(38): PHPMailer\PHPMailer\PHPMailer->addAddress()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(25): sendEmailWhenSubscriptionAboutToEnd()
+#3 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#4 /home/twewole/public_html/dashboard/pages/dashboard.php(1): include('/home/twewole/p...')
+#5 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1100
+[10-Mar-2025 19:20:10 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to):  in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:1100
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1020): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress()
+#1 /home/twewole/public_html/dashboard/pages/notifications.php(38): PHPMailer\PHPMailer\PHPMailer->addAddress()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(25): sendEmailWhenSubscriptionAboutToEnd()
+#3 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#4 /home/twewole/public_html/dashboard/pages/dashboard.php(1): include('/home/twewole/p...')
+#5 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1100
+[11-Mar-2025 12:47:33 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: The following recipients failed: admin@twewole.co: The mail server could not deliver mail to admin@twewole.co.  The account or
+domain may not exist, they may be blacklisted, or missing the proper dns
+entries.
+ in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:2124
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1687): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#1 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1521): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(101): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/twewole/public_html/dashboard/pages/notifications.php(79): sendEmailWhenSlotsAreFew()
+#4 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#5 /home/twewole/public_html/dashboard/pages/managefees.php(1): include('/home/twewole/p...')
+#6 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2124
+[11-Mar-2025 12:47:40 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: The following recipients failed: admin@twewole.co: The mail server could not deliver mail to admin@twewole.co.  The account or
+domain may not exist, they may be blacklisted, or missing the proper dns
+entries.
+ in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:2124
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1687): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#1 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1521): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(101): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/twewole/public_html/dashboard/pages/notifications.php(79): sendEmailWhenSlotsAreFew()
+#4 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#5 /home/twewole/public_html/dashboard/pages/managefees.php(1): include('/home/twewole/p...')
+#6 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2124
+[11-Mar-2025 12:47:49 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: The following recipients failed: admin@twewole.co: The mail server could not deliver mail to admin@twewole.co.  The account or
+domain may not exist, they may be blacklisted, or missing the proper dns
+entries.
+ in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:2124
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1687): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#1 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1521): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(101): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/twewole/public_html/dashboard/pages/notifications.php(79): sendEmailWhenSlotsAreFew()
+#4 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#5 /home/twewole/public_html/dashboard/pages/managefees.php(1): include('/home/twewole/p...')
+#6 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2124
+[11-Mar-2025 12:48:06 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: The following recipients failed: admin@twewole.co: The mail server could not deliver mail to admin@twewole.co.  The account or
+domain may not exist, they may be blacklisted, or missing the proper dns
+entries.
+ in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:2124
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1687): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#1 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1521): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(101): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/twewole/public_html/dashboard/pages/notifications.php(79): sendEmailWhenSlotsAreFew()
+#4 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#5 /home/twewole/public_html/dashboard/pages/dashboard.php(1): include('/home/twewole/p...')
+#6 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2124
+[11-Mar-2025 12:48:13 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: The following recipients failed: admin@twewole.co: The mail server could not deliver mail to admin@twewole.co.  The account or
+domain may not exist, they may be blacklisted, or missing the proper dns
+entries.
+ in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:2124
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1687): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#1 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1521): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(101): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/twewole/public_html/dashboard/pages/notifications.php(79): sendEmailWhenSlotsAreFew()
+#4 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#5 /home/twewole/public_html/dashboard/pages/dashboard.php(1): include('/home/twewole/p...')
+#6 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2124
+[11-Mar-2025 12:48:46 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: The following recipients failed: admin@twewole.co: The mail server could not deliver mail to admin@twewole.co.  The account or
+domain may not exist, they may be blacklisted, or missing the proper dns
+entries.
+ in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:2124
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1687): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#1 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1521): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(101): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/twewole/public_html/dashboard/pages/notifications.php(79): sendEmailWhenSlotsAreFew()
+#4 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#5 /home/twewole/public_html/dashboard/pages/dashboard.php(1): include('/home/twewole/p...')
+#6 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2124
+[11-Mar-2025 12:51:16 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: The following recipients failed: admin@twewole.co: The mail server could not deliver mail to admin@twewole.co.  The account or
+domain may not exist, they may be blacklisted, or missing the proper dns
+entries.
+ in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:2124
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1687): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#1 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1521): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(101): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/twewole/public_html/dashboard/pages/notifications.php(79): sendEmailWhenSlotsAreFew()
+#4 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#5 /home/twewole/public_html/dashboard/pages/dashboard.php(1): include('/home/twewole/p...')
+#6 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2124
+[11-Mar-2025 13:04:41 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: The following recipients failed: admin@twewole.co: The mail server could not deliver mail to admin@twewole.co.  The account or
+domain may not exist, they may be blacklisted, or missing the proper dns
+entries.
+ in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:2124
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1687): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#1 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1521): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(101): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/twewole/public_html/dashboard/pages/notifications.php(79): sendEmailWhenSlotsAreFew()
+#4 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#5 /home/twewole/public_html/dashboard/pages/dashboard.php(1): include('/home/twewole/p...')
+#6 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2124
+[11-Mar-2025 13:15:17 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: The following recipients failed: admin@twewole.co: The mail server could not deliver mail to admin@twewole.co.  The account or
+domain may not exist, they may be blacklisted, or missing the proper dns
+entries.
+ in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:2124
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1687): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#1 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1521): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(101): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/twewole/public_html/dashboard/pages/notifications.php(79): sendEmailWhenSlotsAreFew()
+#4 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#5 /home/twewole/public_html/dashboard/pages/dashboard.php(1): include('/home/twewole/p...')
+#6 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2124
+[11-Mar-2025 14:00:18 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: The following recipients failed: admin@twewole.co: The mail server could not deliver mail to admin@twewole.co.  The account or
+domain may not exist, they may be blacklisted, or missing the proper dns
+entries.
+ in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:2124
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1687): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#1 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1521): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(101): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/twewole/public_html/dashboard/pages/notifications.php(79): sendEmailWhenSlotsAreFew()
+#4 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#5 /home/twewole/public_html/dashboard/pages/dashboard.php(1): include('/home/twewole/p...')
+#6 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2124
+[11-Mar-2025 17:18:27 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: The following recipients failed: admin@twewole.co: The mail server could not deliver mail to admin@twewole.co.  The account or
+domain may not exist, they may be blacklisted, or missing the proper dns
+entries.
+ in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:2124
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1687): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#1 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1521): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(101): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/twewole/public_html/dashboard/pages/notifications.php(79): sendEmailWhenSlotsAreFew()
+#4 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#5 /home/twewole/public_html/dashboard/pages/dashboard.php(1): include('/home/twewole/p...')
+#6 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2124
+[11-Mar-2025 17:18:33 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: The following recipients failed: admin@twewole.co: The mail server could not deliver mail to admin@twewole.co.  The account or
+domain may not exist, they may be blacklisted, or missing the proper dns
+entries.
+ in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:2124
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1687): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#1 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1521): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(101): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/twewole/public_html/dashboard/pages/notifications.php(79): sendEmailWhenSlotsAreFew()
+#4 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#5 /home/twewole/public_html/dashboard/pages/dashboard.php(1): include('/home/twewole/p...')
+#6 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2124
+[11-Mar-2025 17:47:10 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to):  in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:1100
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1020): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress()
+#1 /home/twewole/public_html/dashboard/pages/notifications.php(38): PHPMailer\PHPMailer\PHPMailer->addAddress()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(25): sendEmailWhenSubscriptionAboutToEnd()
+#3 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#4 /home/twewole/public_html/dashboard/pages/dashboard.php(1): include('/home/twewole/p...')
+#5 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1100
+[12-Mar-2025 09:41:41 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: The following recipients failed: admin@twewole.co: The mail server could not deliver mail to admin@twewole.co.  The account or
+domain may not exist, they may be blacklisted, or missing the proper dns
+entries.
+ in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:2124
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1687): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#1 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1521): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(101): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/twewole/public_html/dashboard/pages/notifications.php(79): sendEmailWhenSlotsAreFew()
+#4 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#5 /home/twewole/public_html/dashboard/pages/dashboard.php(1): include('/home/twewole/p...')
+#6 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2124
+[12-Mar-2025 11:29:21 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: The following recipients failed: admin@twewole.co: The mail server could not deliver mail to admin@twewole.co.  The account or
+domain may not exist, they may be blacklisted, or missing the proper dns
+entries.
+ in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:2124
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1687): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#1 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1521): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(101): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/twewole/public_html/dashboard/pages/notifications.php(79): sendEmailWhenSlotsAreFew()
+#4 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#5 /home/twewole/public_html/dashboard/pages/dashboard.php(1): include('/home/twewole/p...')
+#6 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2124
+[13-Mar-2025 09:59:49 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: The following recipients failed: admin@twewole.co: The mail server could not deliver mail to admin@twewole.co.  The account or
+domain may not exist, they may be blacklisted, or missing the proper dns
+entries.
+ in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:2124
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1687): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#1 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1521): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(101): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/twewole/public_html/dashboard/pages/notifications.php(79): sendEmailWhenSlotsAreFew()
+#4 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#5 /home/twewole/public_html/dashboard/pages/dashboard.php(1): include('/home/twewole/p...')
+#6 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2124
+[13-Mar-2025 10:00:17 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: The following recipients failed: admin@twewole.co: The mail server could not deliver mail to admin@twewole.co.  The account or
+domain may not exist, they may be blacklisted, or missing the proper dns
+entries.
+ in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:2124
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1687): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#1 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1521): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(101): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/twewole/public_html/dashboard/pages/notifications.php(79): sendEmailWhenSlotsAreFew()
+#4 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#5 /home/twewole/public_html/dashboard/pages/dashboard.php(1): include('/home/twewole/p...')
+#6 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2124
+[13-Mar-2025 11:39:59 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: The following recipients failed: admin@twewole.co: The mail server could not deliver mail to admin@twewole.co.  The account or
+domain may not exist, they may be blacklisted, or missing the proper dns
+entries.
+ in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:2124
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1687): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#1 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1521): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(101): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/twewole/public_html/dashboard/pages/notifications.php(79): sendEmailWhenSlotsAreFew()
+#4 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#5 /home/twewole/public_html/dashboard/pages/dashboard.php(1): include('/home/twewole/p...')
+#6 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2124
+[13-Mar-2025 11:40:16 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: The following recipients failed: admin@twewole.co: The mail server could not deliver mail to admin@twewole.co.  The account or
+domain may not exist, they may be blacklisted, or missing the proper dns
+entries.
+ in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:2124
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1687): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#1 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1521): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(101): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/twewole/public_html/dashboard/pages/notifications.php(79): sendEmailWhenSlotsAreFew()
+#4 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#5 /home/twewole/public_html/dashboard/pages/index.php(1): include('/home/twewole/p...')
+#6 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2124
+[13-Mar-2025 11:41:01 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: The following recipients failed: admin@twewole.co: The mail server could not deliver mail to admin@twewole.co.  The account or
+domain may not exist, they may be blacklisted, or missing the proper dns
+entries.
+ in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:2124
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1687): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#1 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1521): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(101): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/twewole/public_html/dashboard/pages/notifications.php(79): sendEmailWhenSlotsAreFew()
+#4 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#5 /home/twewole/public_html/dashboard/pages/create_loan.php(1): include('/home/twewole/p...')
+#6 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2124
+[13-Mar-2025 11:42:06 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to):  in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:1100
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1020): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress()
+#1 /home/twewole/public_html/dashboard/pages/notifications.php(38): PHPMailer\PHPMailer\PHPMailer->addAddress()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(25): sendEmailWhenSubscriptionAboutToEnd()
+#3 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#4 /home/twewole/public_html/dashboard/pages/dashboard.php(1): include('/home/twewole/p...')
+#5 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1100
+[13-Mar-2025 11:44:32 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to):  in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:1100
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1020): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress()
+#1 /home/twewole/public_html/dashboard/pages/notifications.php(38): PHPMailer\PHPMailer\PHPMailer->addAddress()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(25): sendEmailWhenSubscriptionAboutToEnd()
+#3 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#4 /home/twewole/public_html/dashboard/pages/dashboard.php(1): include('/home/twewole/p...')
+#5 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1100
+[13-Mar-2025 11:45:31 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to):  in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:1100
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1020): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress()
+#1 /home/twewole/public_html/dashboard/pages/notifications.php(38): PHPMailer\PHPMailer\PHPMailer->addAddress()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(25): sendEmailWhenSubscriptionAboutToEnd()
+#3 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#4 /home/twewole/public_html/dashboard/pages/dashboard.php(1): include('/home/twewole/p...')
+#5 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1100
+[13-Mar-2025 11:48:24 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to):  in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:1100
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1020): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress()
+#1 /home/twewole/public_html/dashboard/pages/notifications.php(38): PHPMailer\PHPMailer\PHPMailer->addAddress()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(25): sendEmailWhenSubscriptionAboutToEnd()
+#3 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#4 /home/twewole/public_html/dashboard/pages/dashboard.php(1): include('/home/twewole/p...')
+#5 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1100
+[13-Mar-2025 11:50:07 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to):  in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:1100
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1020): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress()
+#1 /home/twewole/public_html/dashboard/pages/notifications.php(90): PHPMailer\PHPMailer\PHPMailer->addAddress()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(79): sendEmailWhenSlotsAreFew()
+#3 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#4 /home/twewole/public_html/dashboard/pages/dashboard.php(1): include('/home/twewole/p...')
+#5 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1100
+[13-Mar-2025 11:50:36 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to):  in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:1100
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1020): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress()
+#1 /home/twewole/public_html/dashboard/pages/notifications.php(90): PHPMailer\PHPMailer\PHPMailer->addAddress()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(79): sendEmailWhenSlotsAreFew()
+#3 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#4 /home/twewole/public_html/dashboard/pages/dashboard.php(1): include('/home/twewole/p...')
+#5 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1100
+[13-Mar-2025 11:52:17 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to):  in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:1100
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1020): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress()
+#1 /home/twewole/public_html/dashboard/pages/notifications.php(38): PHPMailer\PHPMailer\PHPMailer->addAddress()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(25): sendEmailWhenSubscriptionAboutToEnd()
+#3 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#4 /home/twewole/public_html/dashboard/pages/dashboard.php(1): include('/home/twewole/p...')
+#5 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1100
+[13-Mar-2025 11:53:30 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to):  in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:1100
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1020): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress()
+#1 /home/twewole/public_html/dashboard/pages/notifications.php(38): PHPMailer\PHPMailer\PHPMailer->addAddress()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(25): sendEmailWhenSubscriptionAboutToEnd()
+#3 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#4 /home/twewole/public_html/dashboard/pages/dashboard.php(1): include('/home/twewole/p...')
+#5 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1100
+[13-Mar-2025 11:54:10 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to):  in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:1100
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1020): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress()
+#1 /home/twewole/public_html/dashboard/pages/notifications.php(90): PHPMailer\PHPMailer\PHPMailer->addAddress()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(79): sendEmailWhenSlotsAreFew()
+#3 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#4 /home/twewole/public_html/dashboard/pages/dashboard.php(1): include('/home/twewole/p...')
+#5 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1100
+[13-Mar-2025 11:55:43 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to):  in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:1100
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1020): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress()
+#1 /home/twewole/public_html/dashboard/pages/notifications.php(38): PHPMailer\PHPMailer\PHPMailer->addAddress()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(25): sendEmailWhenSubscriptionAboutToEnd()
+#3 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#4 /home/twewole/public_html/dashboard/pages/dashboard.php(1): include('/home/twewole/p...')
+#5 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1100
+[13-Mar-2025 11:58:15 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to):  in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:1100
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1020): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress()
+#1 /home/twewole/public_html/dashboard/pages/notifications.php(38): PHPMailer\PHPMailer\PHPMailer->addAddress()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(25): sendEmailWhenSubscriptionAboutToEnd()
+#3 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#4 /home/twewole/public_html/dashboard/pages/dashboard.php(1): include('/home/twewole/p...')
+#5 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1100
+[13-Mar-2025 11:59:09 Africa/Kampala] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to):  in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php:1100
+Stack trace:
+#0 /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php(1020): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress()
+#1 /home/twewole/public_html/dashboard/pages/notifications.php(38): PHPMailer\PHPMailer\PHPMailer->addAddress()
+#2 /home/twewole/public_html/dashboard/pages/notifications.php(25): sendEmailWhenSubscriptionAboutToEnd()
+#3 /home/twewole/public_html/dashboard/pages/zini_genesis.php(6): include('/home/twewole/p...')
+#4 /home/twewole/public_html/dashboard/pages/dashboard.php(1): include('/home/twewole/p...')
+#5 {main}
+  thrown in /home/twewole/public_html/dashboard/pages/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1100
